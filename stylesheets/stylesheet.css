@@ -62,7 +62,8 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100%;}
+  height: 100vh;
+  min-height: 400px; }
 
 @media screen and (min-width: 64em) {
   .page-header {
