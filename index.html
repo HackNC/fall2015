@@ -15,11 +15,17 @@
 			<nav>
 				<div class="nav-wrapper">
 					<a href="#" class="brand-logo center">HackNC</a>
+					<ul id="mobile-menu" class="side-nav">
+						<li><a href="#what-is-hacknc">About</a></li>
+						<li><a href="#schedule">Schedule</a></li>
+						<li><a href="#sponsors">Sponsors</a></li>
+					</ul>
 					<ul id="nav-mobile" class="left hide-on-med-and-down">
 						<li><a href="#what-is-hacknc">About</a></li>
 						<li><a href="#schedule">Schedule</a></li>
 						<li><a href="#sponsors">Sponsors</a></li>
 					</ul>
+					<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 				</div>
 			</nav>
 		</div>
@@ -102,7 +108,8 @@
 		<!-- Materialize javascript -->
 		<!--Import jQuery before materialize.js-->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 		<!-- Google Analytics -->
 		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
