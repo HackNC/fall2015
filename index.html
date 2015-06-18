@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Fall2015 by HackNC</title>
+		<!--Import normalize.css-->
+		<link type="text/css" rel="stylesheet" href="css/normalize.css" media="screen,projection"/>
 		<!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   </head>
@@ -21,20 +23,32 @@
 				</div>
 			</nav>
 		</div>
-		<div class="container">
-			<section class="page-header">
-				<div class="valign-wrapper">
-					<div class="valign center-align">
-						<h1 class="project-name">HackNC</h1>
-						<br>
-						<h2 class="project-tagline">The Grand Carolina Hackathon</h2>
-						<br>
+		<header class="valign-wrapper center-align">
+			<div class="valign center-align">
+				<div class="row">
+					<div class="col s12">
+						<h1>
+							HackNC
+						</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
+						<h2>
+							The Grand Carolina Hackathon
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12">
 						<a href="#" class="btn">Apply</a>
 						<a href="#" class="btn">Sponsor</a>
 						<a href="#" class="btn">Learn more</a>
 					</div>
 				</div>
-			</section>
+			</div>
+		</header>
+		<div class="container">
 			<section class="main-content">
 				<div>
 					<a id="welcome-to-hacknc"class="anchor" href="#welcome-to-hacknc" aria-hidden="true"></a>
@@ -67,14 +81,24 @@
 						Saturday-Sunday: Hackathon
 					</p>
 				</div>
-				<footer class="site-footer">
-					<span class="site-footer-owner">
-						You can see the download the source of this website on <a href="https://github.com/HackNC/fall2015">GitHub</a>!
-					</span>
-					<span class="site-footer-credits">HackNC is brought to you by UNC students.</span>
-				</footer>
 			</section>
 		</div>
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<p class="grey-text text-lighten-4">
+							You can download the source of this website on <a href="https://github.com/HackNC/fall2015">GitHub</a>!
+						</p>
+					</div>
+					<div class="col l6 s12">
+						<p class="grey-text text-lighten-4">
+							HackNC is brought to you by UNC students
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<!-- Materialize javascript -->
 		<!--Import jQuery before materialize.js-->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
