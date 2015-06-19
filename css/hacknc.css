@@ -1,3 +1,7 @@
 .hacknc-nav {
 	background-color: rgba(1, 1, 1, 0.2);
 }
+	
+#header-buttons a {
+	margin: 7px;
+}
