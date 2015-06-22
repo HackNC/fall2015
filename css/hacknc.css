@@ -1,21 +1,25 @@
-.hacknc-nav {
-	background-color: rgba(1, 1, 1, 0.2);
+/* Layout */
+
+.logo {
+	width: 50%;
 }
 
 #header-buttons a {
 	margin: 7px;
 }
 
-.logo {
-	width: 50%;
-}
+/* Colors */
 
 .row.black::after {
 	background-color: black;
 }
 
-span.subtitle {
-	font-size: 2em;
+.page-footer {
+	background-color: #ff8996;
+}
+
+.hacknc-nav {
+	background-color: rgba(1, 1, 1, 0.2);
 }
 
 /* Typography */
@@ -27,6 +31,10 @@ html {
 h1, h2, h3 {
 	font-family: 'Roboto';
 	font-weight: bold;
+}
+
+span.subtitle {
+	font-size: 2em;
 }
 
 /* Media queries */
