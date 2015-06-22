@@ -6,6 +6,38 @@
 	margin: 7px;
 }
 
+.logo {
+	width: 50%;
+}
+
+.row.black::after {
+	background-color: black;
+}
+
+span.subtitle {
+	font-size: 2em;
+}
+
+/* Typography */
+
+html {
+	font-family:'Archer Book';
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto';
+	font-weight: bold;
+}
+
+/* Media queries */
+@media (max-width : 500px) {
+	.logo {
+		width: 95%;
+	}
+}
+
+/* Fonts */
+
 @font-face {
 font-family: 'Archer Book';
 font-style: normal;
@@ -13,6 +45,9 @@ font-weight: normal;
 src: local('Archer Book'), url('../font/archer/Archer-Book-Pro.woff') format('woff');
 }
 
-html {
-	font-family:'Archer Book';
+@font-face {
+font-family: 'Riesling';
+font-style: normal;
+font-weight: normal;
+src: local('Riesling'), url('../font/riesling/riesling 2.ttf') format('ttf');
 }
