@@ -1,7 +1,18 @@
 .hacknc-nav {
 	background-color: rgba(1, 1, 1, 0.2);
 }
-	
+
 #header-buttons a {
 	margin: 7px;
+}
+
+@font-face {
+font-family: 'Archer Book';
+font-style: normal;
+font-weight: normal;
+src: local('Archer Book'), url('../font/archer/Archer-Book-Pro.woff') format('woff');
+}
+
+html {
+	font-family:'Archer Book';
 }
