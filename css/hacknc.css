@@ -1,10 +1,14 @@
-html {
-	font-family:'Archer Book';
+p, .btn {
+	font-family: ArcherBook;
 }
 
 h1, h2, h3 {
 	font-family: 'Roboto';
 	font-weight: bold;
+}
+
+#hacknc-footer {
+	background-color: #ff8996;
 }
 
 #hacknc-header {
@@ -16,42 +20,43 @@ h1, h2, h3 {
 }
 
 #hacknc-logo {
+	max-width: 50%;
+	max-height: 50%;
 	width: 50%;
 }
 
 #hacknc-tagline {
-	font-family:'Riesling';
-	font-size: 2em;
+	font-family: Riesling;
+	font-size: 4em;
+	color: grey;
 }
 
 .hacknc-fullscreen {
 	height: 100%;
-	min-height:100%;
-}
-
-.page-footer {
-	background-color: #ff8996;
+	min-height: 100%;
+	max-height: 1080px;
 }
 
 /* Media queries */
 @media (max-width : 500px) {
 	#hacknc-logo {
-		width: 95%;
+		max-width: 95%;
+		max-height: 60%;
 	}
 }
 
 /* Fonts */
 
 @font-face {
-	font-family: 'Archer Book';
-	font-style: normal;
+	font-family: ArcherBook;
+ 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/archer/Archer-Book-Pro.woff') format('woff');
+	src: url(../fonts/archer/Archer-Book-Pro.woff);
 }
 
 @font-face {
-	font-family: 'Riesling';
+	font-family: Riesling;
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/riesling/riesling 2.ttf') format('ttf');
+	src: url(../fonts/riesling/riesling.ttf);
 }
