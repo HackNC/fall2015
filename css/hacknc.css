@@ -18,6 +18,10 @@
 	background-color: #ff8996;
 }
 
+#hacknc-header {
+	background-color: black;
+}
+
 .hacknc-nav {
 	background-color: rgba(1, 1, 1, 0.2);
 }
@@ -50,12 +54,12 @@ span.subtitle {
 font-family: 'Archer Book';
 font-style: normal;
 font-weight: normal;
-src: local('Archer Book'), url('../font/archer/Archer-Book-Pro.woff') format('woff');
+src: local('Archer Book'), url('../fonts/archer/Archer-Book-Pro.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Riesling';
 font-style: normal;
 font-weight: normal;
-src: local('Riesling'), url('../font/riesling/riesling 2.ttf') format('ttf');
+src: local('Riesling'), url('../fonts/riesling/riesling 2.ttf') format('ttf');
 }
