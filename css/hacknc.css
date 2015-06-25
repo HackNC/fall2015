@@ -133,20 +133,6 @@ nav {
     color: #f06e6e;
 }
 
-.navbar-brand {
-    float: none;
-}
-
-.navbar-center {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin: auto;
-    height: 100%;
-}
-
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #ffffff;
