@@ -9,6 +9,11 @@ nav {
     font-family: ArcherBook;
 }
 
+.container {
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 10px;
+}
+
 /* Fonts */
 @font-face {
     font-family: ArcherBook;
