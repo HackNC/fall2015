@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/backgrounds/bg (0).jpg');
+    background-image: url('../images/spring.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -9,32 +9,7 @@ nav {
     font-family: ArcherBook;
 }
 
-#hacknc-header {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-#hacknc-logo {
-    max-width: 50%;
-    max-height: 50%;
-    width: 50%;
-}
-
-#hacknc-tagline {
-    font-family: Riesling;
-    font-size: 4em;
-    color: lightgray;
-}
-
-/* Media queries */
-@media (max-width: 500px) {
-    #hacknc-logo {
-        max-width: 95%;
-        max-height: 60%;
-    }
-}
-
 /* Fonts */
-
 @font-face {
     font-family: ArcherBook;
     font-style: normal;
