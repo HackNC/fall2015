@@ -1,25 +1,53 @@
 body {
-    background-image: url('../images/spring.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  background-image: url('../images/spring.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-nav {
-    font-family: ArcherBook;
+nav, p, h1 {
+  font-family: ArcherBook;
 }
 
 /* Fonts */
 @font-face {
-    font-family: ArcherBook;
-    font-style: normal;
-    font-weight: normal;
-    src: url(../fonts/archer/Archer-Book-Pro.woff);
+  font-family: ArcherBook;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/archer/Archer-Book-Pro.woff);
 }
 
 @font-face {
-    font-family: Riesling;
-    font-style: normal;
-    font-weight: normal;
-    src: url(../fonts/riesling/riesling.ttf);
+  font-family: Riesling;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/riesling/riesling.ttf);
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+header > .jumbotron {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Navbar */
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+#nav.affix.navbar {
+  border-width: 0 0 1px;
+}
+
+#nav.navbar {
+  border-radius: 0;
 }
