@@ -1,11 +1,11 @@
 body {
-  background-image: url('../images/spring.jpg');
+/*   background-image: url('../images/quad.jpeg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
 }
 
-nav, p, h1 {
+nav, p, h1, h2, h3, h4, h5 {
   font-family: ArcherBook;
 }
 
