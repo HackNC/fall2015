@@ -1,20 +1,8 @@
-body {
-  /*background-image: url('../images/spring.jpg');*/
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
+/* Typography */
 nav, p, h1, h2, h3, h4, h5 {
   font-family: ArcherBook;
 }
 
-.container {
-	background-color: rgba(255, 255, 255, 0.75);
-	border-radius: 10px;
-}
-
-/* Fonts */
 @font-face {
   font-family: ArcherBook;
   font-style: normal;
@@ -29,14 +17,65 @@ nav, p, h1, h2, h3, h4, h5 {
   src: url(../fonts/riesling/riesling.ttf);
 }
 
-.container {
-  background-color: rgba(255, 255, 255, 0.75);
+/* Design */
+body {
+  /*background-image: url('../images/spring.jpg');*/
+ /* background-size: cover;
+  background-attachment: fixed;
+  background-position: center;*/
+  background-image: url("http://www.webtexture.net/wp-content/uploads/2011/05/20-seamless-paper-texture-200x200.jpg");
+  background-repeat: repeat;
 }
 
-header > .jumbotron {
-  margin-bottom: 0;
+.container {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
 }
 
 .jumbotron {
   background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Layout */
+
+header > .jumbotron {
+  background-image: url("../images/spring.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+
+header > .jumbotron img {
+  max-height: 400px;
+}
+
+.hacknc-footer {
+  padding-top: 20px;
+  padding-right: 5%;
+}
+
+.hacknc-footer span:first-child {
+  font-size: 2rem;
+}
+
+.hacknc-footer span {
+  font-size: 1.5rem;
+  font-family: ArcherBook;
+}
+
+#invitation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: ArcherBook;
+}
+
+#invitation .big {
+  font-size: 4rem;
+}
+
+#invitation .content {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
