@@ -1,7 +1,7 @@
 $(document).ready(function () {
 });
 
-$('body').css('margin-top', $('nav').height());
+$('header > .jumbotron .container').css('margin-top', $('nav').height());
 
 $('header > .jumbotron').css('height', $(window).height());
 

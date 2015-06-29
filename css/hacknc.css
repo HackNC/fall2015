@@ -1,5 +1,5 @@
 /* Typography */
-nav, p, h1, h2, h3, h4, h5 {
+nav, p, h1, h2, h3, h4, h5, li {
   font-family: ArcherBook;
 }
 
@@ -45,12 +45,7 @@ header > .jumbotron {
   height: 400px;
 }
 
-header > .jumbotron img {
-  max-height: 400px;
-}
-
 .hacknc-footer {
-  padding-top: 20px;
   padding-right: 5%;
 }
 
