@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/spring.jpg');
+  /*background-image: url('../images/spring.jpg');*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -39,20 +39,4 @@ header > .jumbotron {
 
 .jumbotron {
   background-color: rgba(255, 255, 255, 0.25);
-}
-
-/* Navbar */
-#nav.affix {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-
-#nav.affix.navbar {
-  border-width: 0 0 1px;
-}
-
-#nav.navbar {
-  border-radius: 0;
 }

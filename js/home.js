@@ -1,10 +1,4 @@
 $(document).ready(function () {
 });
 
-$('#nav').affix({
-  offset: {
-    top: $('header').height()
-  }
-});
-
-$('#nav-wrapper').height($("#nav").height());
+$('body').css('margin-top', $('nav').height());
