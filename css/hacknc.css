@@ -36,12 +36,6 @@ body {
 	padding-right: 5%;
 }
 
-.hacknc-footer span:first-child::after {
-	content: '-';
-	padding-left: 2px;
-	padding-right: 2px;
-}
-
 .hacknc-footer span {
 	font-size: 1.5rem;
 }
