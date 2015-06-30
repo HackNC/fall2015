@@ -1,10 +1,10 @@
 body {
-	background-image: url("http://www.webtexture.net/wp-content/uploads/2011/05/20-seamless-paper-texture-200x200.jpg");
+  background-image: url(http://www.webtexture.net/wp-content/uploads/2011/05/20-seamless-paper-texture-200x200.jpg);
 	background-repeat: repeat;
 }
 
 header > .jumbotron {
-	background-image: url("../images/spring.jpg");
+  background-image: url(../images/spring2048.jpg);
 	background-size: cover;
 	background-position: center center;
 	height: 400px;
@@ -37,4 +37,17 @@ header > .jumbotron {
 
 .jumbotron {
 	background-color: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 1024px) {
+  header > .jumbotron {
+    background-image: url(../images/spring1024.jpg);
+  }
+}
+
+@media (max-width: 768px) {
+  header > .jumbotron {
+    background-image: url(../images/spring768.jpg);
+  )
+  }
 }
