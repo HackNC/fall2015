@@ -1,76 +1,46 @@
 /* Typography */
 nav, p, h1, h2, h3, h4, h5, li {
-  font-family: ArcherBook;
+	font-family: ArcherBook;
 }
 
 @font-face {
-  font-family: ArcherBook;
+	font-family: ArcherBook;
   font-style: normal;
   font-weight: normal;
   src: url(../fonts/archer/Archer-Book-Pro.woff);
 }
 
 @font-face {
-  font-family: Riesling;
+	font-family: Riesling;
   font-style: normal;
   font-weight: normal;
   src: url(../fonts/riesling/riesling.ttf);
 }
 
-/* Design */
+/* Images and color */
 body {
-  /*background-image: url('../images/spring.jpg');*/
- /* background-size: cover;
+  /*background-image: url('../images/spring.jpg');
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;*/
-  background-image: url("http://www.webtexture.net/wp-content/uploads/2011/05/20-seamless-paper-texture-200x200.jpg");
-  background-repeat: repeat;
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 10px;
-}
-
-.jumbotron {
-  background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 10px;
 }
 
 /* Layout */
 
-header > .jumbotron {
-  background-image: url("../images/spring.jpg");
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-}
-
 .hacknc-footer {
-  padding-right: 5%;
+	padding-right: 5%;
 }
 
 .hacknc-footer span:first-child {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .hacknc-footer span {
-  font-size: 1.5rem;
-  font-family: ArcherBook;
-}
-
-#invitation {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-size: 2rem;
-  font-family: ArcherBook;
-}
-
-#invitation .big {
-  font-size: 4rem;
-}
-
-#invitation .content {
-  padding-top: 10px;
-  padding-bottom: 10px;
+	font-size: 1.5rem;
+	font-family: ArcherBook;
 }

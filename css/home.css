@@ -1,0 +1,40 @@
+body {
+	background-image: url("http://www.webtexture.net/wp-content/uploads/2011/05/20-seamless-paper-texture-200x200.jpg");
+	background-repeat: repeat;
+}
+
+header > .jumbotron {
+	background-image: url("../images/spring.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+}
+
+#invitation {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 2rem;
+	font-family: ArcherBook;
+}
+
+#invitation .big {
+	font-size: 4rem;
+}
+
+#invitation img:first-child {
+	margin-bottom: -15%;
+}
+
+#invitation img:last-child {
+	margin-top: -15%;
+}
+
+#invitation .content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0.25);
+}
