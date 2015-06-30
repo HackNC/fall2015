@@ -1,0 +1,10 @@
+#contain-mlh {
+	max-width: 25%;
+}
+
+@media (max-width: 768px) {
+	#contain-mlh {
+		width: 50%;
+		min-width: 100px;
+	}
+}
