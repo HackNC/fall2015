@@ -1,5 +1,5 @@
 /* Typography */
-nav, p, h1, h2, h3, h4, h5, li {
+nav, p, h1, h2, h3, h4, h5, li, span {
 	font-family: ArcherBook;
 }
 
@@ -36,10 +36,6 @@ body {
 	padding-right: 5%;
 }
 
-.hacknc-footer span:first-child {
-	font-size: 2rem;
-}
-
 .hacknc-footer span:first-child::after {
 	content: '-';
 	padding-left: 2px;
@@ -48,5 +44,4 @@ body {
 
 .hacknc-footer span {
 	font-size: 1.5rem;
-	font-family: ArcherBook;
 }
