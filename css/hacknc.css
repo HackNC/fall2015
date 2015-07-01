@@ -29,6 +29,14 @@ nav, p, h1, h2, h3, h4, h5, li, span {
 	padding-right: 8px;
 }
 
+.row:first-child {
+	padding-top: 8px;
+}
+
+.row:last-child {
+	padding-bottom: 8px;
+}
+
 /* Layout */
 
 .hacknc-footer {
