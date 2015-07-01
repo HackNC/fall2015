@@ -1,8 +1,9 @@
-#info {
-	display: none;
+#caption {
+	position: absolute;
+	bottom: 50px;
 }
 
-#info-btn {
+#caption-btn {
 	position: absolute;
 	bottom: 50px;
 	right: 50px;
