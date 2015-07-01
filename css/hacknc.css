@@ -24,6 +24,10 @@ nav, p, h1, h2, h3, h4, h5, li, span {
 	border-radius: 10px;
 }
 
+.row > h1, .row > h2, .row > h3 {
+	padding-left: 8px;
+}
+
 /* Layout */
 
 .hacknc-footer {
