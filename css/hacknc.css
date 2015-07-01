@@ -24,8 +24,9 @@ nav, p, h1, h2, h3, h4, h5, li, span {
 	border-radius: 10px;
 }
 
-.row > h1, .row > h2, .row > h3 {
+.row {
 	padding-left: 8px;
+	padding-right: 8px;
 }
 
 /* Layout */
