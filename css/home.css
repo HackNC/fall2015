@@ -48,6 +48,6 @@ header > .jumbotron {
 @media (max-width: 768px) {
   header > .jumbotron {
     background-image: url(../images/spring768.jpg);
-  )
   }
+	
 }
