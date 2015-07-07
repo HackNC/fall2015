@@ -8,6 +8,10 @@ body {
 	background-repeat: repeat;
 }
 
+h2 {
+  text-align: center;
+}
+
 header > .jumbotron {
   background-image: url(../images/spring2048.jpg);
 	background-size: cover;
