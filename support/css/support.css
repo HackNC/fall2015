@@ -2,7 +2,7 @@
 	max-width: 25%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	#contain-mlh {
 		width: 50%;
 		min-width: 100px;
