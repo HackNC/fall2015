@@ -6,7 +6,6 @@ var faqHeight = function() {
 	var faqHeight = Math.max.apply(null, $('#faq .panel').map(function() {
 	return $(this).height();
 }).get());
-console.log(faqHeight);
 
 	$('#faq .panel').css('height', faqHeight);
 };
