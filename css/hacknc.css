@@ -22,6 +22,16 @@ body .jumbotron {
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+.navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
+  background-color: #56A0D3;
+  color: white;
+}
+
+.panel.hacknc-panel > .panel-heading {
+  background-color: #AFE3F8;
+  color: black;
+}
+
 .row {
 	padding-left: 8px;
 	padding-right: 8px;
