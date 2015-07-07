@@ -19,11 +19,6 @@ nav, p, h1, h2, h3, h4, h5, li, span, div {
 
 /* Images and color */
 
-.container {
-	background-color: rgba(255, 255, 255, 0.75);
-	border-radius: 10px;
-}
-
 .row {
 	padding-left: 8px;
 	padding-right: 8px;

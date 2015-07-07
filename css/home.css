@@ -1,3 +1,8 @@
+.container {
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 10px;
+}
+
 body {
   background-image: url(../images/paper200.jpg);
 	background-repeat: repeat;
