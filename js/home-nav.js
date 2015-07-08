@@ -1,5 +1,5 @@
-/* var navOffset = function () {
-  $('body').css('margin-top', $('#nav').height());
+var navOffset = function () {
+  $('#content.container').css('margin-top', $('#nav').height() * 0.25);
 };
 
 navOffset();
@@ -7,4 +7,3 @@ navOffset();
 $(window).on('resize', function () {
   navOffset();
 });
- */
