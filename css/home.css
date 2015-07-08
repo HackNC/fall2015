@@ -8,6 +8,10 @@ body {
 	background-repeat: repeat;
 }
 
+h2 {
+  text-align: center;
+}
+
 header > .jumbotron {
   background-image: url(../images/spring2048.jpg);
 	background-size: cover;
@@ -27,8 +31,17 @@ header > .jumbotron {
 	font-size: 4rem;
 }
 
+#invitation .col-xs-8, #invitation .col-xs-offset-2 {
+  float: none;
+}
+
 #invitation img:first-child {
-	margin-bottom: -15%;
+  margin-bottom: -10%;
+}
+
+#invitation img {
+  width: 80%;
+  margin: auto;
 }
 
 #invitation img:last-child {
