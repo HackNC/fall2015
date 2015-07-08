@@ -1,19 +1,15 @@
 .container {
-	background-color: rgba(255, 255, 255, 0.75);
-	border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
 }
 
 body {
   background-image: url(../images/paper200.jpg);
-	background-repeat: repeat;
-}
-
-h2 {
-  text-align: center;
+  background-repeat: repeat;
 }
 
 header > .jumbotron {
-	height: 400px;
+  height: 400px;
   padding: 0;
 }
 
@@ -48,15 +44,15 @@ header #one {
 }
 
 #invitation {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 2rem;
-	font-family: ArcherBook;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: ArcherBook;
 }
 
 #invitation .big {
-	font-size: 4rem;
+  font-size: 4rem;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
@@ -73,15 +69,18 @@ header #one {
 }
 
 #invitation img:last-child {
-	margin-top: -15%;
+  margin-top: -15%;
 }
 
 #invitation .content {
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .jumbotron {
-	background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
+#welcome p {
+  font-size: 1.1em;
+}

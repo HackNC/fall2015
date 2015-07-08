@@ -1,17 +1,17 @@
 /* Typography */
 nav, p, h1, h2, h3, h4, h5, li, span, div {
-	font-family: ArcherBook;
+  font-family: ArcherBook;
 }
 
 @font-face {
-	font-family: ArcherBook;
+  font-family: ArcherBook;
   font-style: normal;
   font-weight: normal;
   src: url(../fonts/archer/Archer-Book-Pro.woff);
 }
 
 @font-face {
-	font-family: Riesling;
+  font-family: Riesling;
   font-style: normal;
   font-weight: normal;
   src: url(../fonts/riesling/riesling.ttf);
@@ -28,29 +28,29 @@ body .jumbotron {
 }
 
 .panel.hacknc-panel > .panel-heading {
-  background-color: #AFE3F8;
+  background-color: #A6D7EB;
   color: black;
 }
 
 .row {
-	padding-left: 8px;
-	padding-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .row:first-child {
-	padding-top: 8px;
+  padding-top: 8px;
 }
 
 .row:last-child {
-	padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 /* Layout */
 
 .hacknc-footer {
-	padding-right: 5%;
+  padding-right: 5%;
 }
 
 .hacknc-footer span {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
