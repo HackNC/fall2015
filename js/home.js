@@ -6,8 +6,19 @@ var faqHeight = function() {
 	$('#faq .panel').css('height', faqHeight);
 };
 
+var affixNav = function() {
+	$('#nav').affix({
+		offset: {
+			top: $('header').height()
+		}
+	});
+	$('#nav-wrapper').css('height', $('#nav').height());
+};
+
 $(window).on('resize', function() {
 	faqHeight();
+	$('#nav').affix('checkPosition');
 });
 
 faqHeight();
+affixNav();

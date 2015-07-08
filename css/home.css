@@ -11,6 +11,7 @@ body {
 header > .jumbotron {
   height: 400px;
   padding: 0;
+	margin: 0;
 }
 
 header > .jumbotron > div {
@@ -79,6 +80,19 @@ header #one {
 
 .jumbotron {
   background-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar.hacknc-navbar {
+	background-color: #463E47;
+}
+
+#nav.affix {
+	top: 0;
+	border-width: 0 0 1px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 
 #welcome p {
