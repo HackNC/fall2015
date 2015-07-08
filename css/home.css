@@ -13,10 +13,36 @@ h2 {
 }
 
 header > .jumbotron {
-  background-image: url(../images/spring2048.jpg);
-	background-size: cover;
-	background-position: center center;
 	height: 400px;
+  padding: 0;
+}
+
+header > .jumbotron > div {
+  background-size: cover;
+  background-position: center center;
+  height: inherit;
+  width: 100%;
+  position: absolute;
+}
+
+header #three {
+  background-image: url(../images/front-mtn-layer.png);
+  z-index: 3;
+}
+
+header #two {
+  background-image: url(../images/2nd-mntn-and-waterfall.png);
+  z-index: 2;
+}
+
+header #one {
+  background-image: url(../images/background-mtns.png);
+  z-index: 1;
+}
+
+header #zero {
+  background-image: url(../images/background-mtns.png);
+  z-index: 0;
 }
 
 #invitation {
@@ -57,15 +83,3 @@ header > .jumbotron {
 	background-color: rgba(255, 255, 255, 0.25);
 }
 
-@media (max-width: 1024px) {
-  header > .jumbotron {
-    background-image: url(../images/spring1024.jpg);
-  }
-}
-
-@media (max-width: 768px) {
-  header > .jumbotron {
-    background-image: url(../images/spring768.jpg);
-  }
-	
-}
