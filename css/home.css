@@ -25,6 +25,13 @@ header > .jumbotron > div {
   position: absolute;
 }
 
+header #title {
+  width: 70%;
+  left: 15%;
+  z-index: 4;
+  top: 100px;
+}
+
 header #three {
   background-image: url(../images/front-mtn-layer.png);
   z-index: 3;
@@ -38,11 +45,6 @@ header #two {
 header #one {
   background-image: url(../images/background-mtns.png);
   z-index: 1;
-}
-
-header #zero {
-  background-image: url(../images/background-mtns.png);
-  z-index: 0;
 }
 
 #invitation {
