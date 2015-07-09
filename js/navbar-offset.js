@@ -4,7 +4,3 @@ var navbarOffset = function () {
 };
 
 navbarOffset();
-
-$(window).on('resize', function () {
-  navbarOffset();
-});

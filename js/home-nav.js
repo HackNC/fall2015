@@ -5,22 +5,28 @@ var navOffset = function () {
 var collapsedMenus = function() {
 	$('#nav button.navbar-toggle').on('click', function() {
 		if ($(this).hasClass('collapsed')) {
-			var navCollapseSize = 322.5;
-			collapseOffset('#nav', navCollapseSize);
-		}
-	});
-	
-	$('#nav a#side-menu').on('click', function() {
-		if ($(this).parent().hasClass('open')) {
-			var menuCollapseSize = 133;
-			collapseOffset('#nav', menuCollapseSize);
+      var collapsedMenuHeight = 323.5;
+      collapseOffset('#nav', collapsedMenuHeight);
+    }
+  });
+
+  $('#nav #side-menu > a').on('click', function () {
+    if ($(this).parent().not('.open')) {
+      var collapsedSideMenuHeight;
+      if ($('#nav .navbar-toggle').is(':visible')) {
+        collapsedSideMenuHeight = 133 + 323.5;
+      } else {
+        collapsedSideMenuHeight = 133;
+      }
+      collapseOffset('#nav #side-menu > a', collapsedSideMenuHeight);
 		}
 	});
 };
 
 var collapseOffset = function(selector, size) {
-	var windowHeight = $(window).height();
-	if (($(selector).offset().top - $(window).scrollTop()) > (size)) {
+  var $window = $(window);
+  var windowHeight = $window.height();
+  if ($window.scrollTop() < size) {
 		var dest = (size < windowHeight) ? size : windowHeight;
 		$('html, body').animate({
 			scrollTop: dest
@@ -30,6 +36,3 @@ var collapseOffset = function(selector, size) {
 
 navOffset();
 collapsedMenus();
-$(window).on('resize', function () {
-  navOffset();
-});
