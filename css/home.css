@@ -83,10 +83,6 @@ header #one {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.navbar.hacknc-navbar {
-	background-color: #463E47;
-}
-
 #nav.affix {
 	top: 0;
 	border-width: 0 0 1px;
