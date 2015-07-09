@@ -9,7 +9,7 @@ body {
 }
 
 header > .jumbotron {
-  height: 400px;
+  height: 1080px;
   padding: 0;
 	margin: 0;
 }
@@ -26,8 +26,8 @@ header #title {
   width: 70%;
   left: 15%;
   z-index: 4;
-  top: 100px;
   height: initial;
+  display: none;
 }
 
 header #three {
