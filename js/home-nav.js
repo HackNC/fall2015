@@ -4,14 +4,15 @@ var navOffset = function () {
 
 var collapsedMenus = function() {
 	$('#nav button.navbar-toggle').on('click', function() {
-		if ($(this).hasClass('collapsed')) {
+		if ($(this).hasClass('collapsed') &&
+		    !$($(this).data('target')).hasClass('collapsing')) {
       var collapsedMenuHeight = 323.5;
       collapseOffset('#nav', collapsedMenuHeight);
     }
   });
 
   $('#nav #side-menu > a').on('click', function () {
-    if ($(this).parent().not('.open')) {
+    if (!$(this).parent().hasClass('open')) {
       var collapsedSideMenuHeight;
       if ($('#nav .navbar-toggle').is(':visible')) {
         collapsedSideMenuHeight = 133 + 323.5;
