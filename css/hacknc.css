@@ -23,13 +23,13 @@ body .jumbotron {
 }
 
 .navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
-  background-color: #56A0D3;
+  background-color: #463E47;
   color: white;
 }
 
 .panel.hacknc-panel > .panel-heading {
-  background-color: #A6D7EB;
-  color: black;
+  background-color: rgb(110, 134, 140);
+  color: white;
 }
 
 .row {
