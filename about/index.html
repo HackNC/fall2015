@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="../images/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="../css/material-fullpalette.min.css" />
 	<link type="text/css" rel="stylesheet" href="../css/hacknc.css" />
@@ -15,11 +15,10 @@
 </head>
 
 <body>
-<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
+	<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
-                aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -27,23 +26,23 @@
 				</button>
 				<a class="navbar-brand" href="..">HackNC</a>
 			</div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
+			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active">
 						<a href=".">About <span class="sr-only">(current)</span></a>
 					</li>
 					<li>
 						<a href="../apply/">Apply</a>
-          </li>
-          <li>
-            <a href="../support/">Support</a>
+					</li>
+					<li>
+						<a href="../support/">Support</a>
 					</li>
 					<li>
 						<a href="../learn/">Learn</a>
 					</li>
 					<li>
 						<a href="../schedule/">Schedule</a>
-          </li>
+					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
@@ -56,7 +55,7 @@
 								<a href="http://fall2014.hacknc.com">Last year</a>
 							</li>
 							<li>
-								<a href="#">Cheat codes</a>
+								<a data-toggle="modal" data-target="#cheat-codes">Cheat codes</a>
 							</li>
 							<li role="separator" class="divider">
 							</li>
@@ -69,11 +68,30 @@
 			</div>
 		</div>
 	</nav>
+	<div id="cheat-codes" class="modal fade" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h4 class="modal-title">Cheat Codes</h4>
+				</div>
+				<div class="modal-body">
+					<p>
+						Want to get the most out of your experience at a hackathon? Here's a hint: It's not all about what you make. If you're stuck, go see what other people are up to. If you're tired, go to sleep. If you're hungry, find some free food. If you're bored, go
+						do something fun. You don't even have to finish your project. As long as you're having fun and learning a few new things you're doing it right.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-primary" data-dismiss="modal">mKay</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript" src="../js/navbar-offset.js"></script>
-  <button style="display: none;" id="caption" class="btn btn-material-yellow btn-lg">
-    <div class="ripple-wrapper"></div>
-  </button>
-  <a style="display: none;" id="caption-btn" href="#" class="btn btn-primary btn-fab btn-raised mdi-action-grade"></a>
+	<button style="display: none;" id="caption" class="btn btn-material-yellow btn-lg">
+		<div class="ripple-wrapper"></div>
+	</button>
+	<a style="display: none;" id="caption-btn" href="#" class="btn btn-primary btn-fab btn-raised mdi-action-grade"></a>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/material.min.js"></script>
 	<script type="text/javascript" src="../js/ripples.min.js"></script>
