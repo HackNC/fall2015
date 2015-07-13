@@ -3,11 +3,18 @@ html{
 	height: 100%;
 	overflow: hidden;
 }
+
 iframe{
 	position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
-  top: 50px;
+	padding-top: 50px;
+  padding-bottom: 50px;
+	height: 100%;
+	width: 100%;
   border: 0;
+}
+
+nav.navbar-fixed-bottom  ul.nav.navbar-nav{
+	overflow: hidden;
 }
