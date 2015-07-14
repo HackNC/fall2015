@@ -15,6 +15,6 @@ iframe{
   border: 0;
 }
 
-nav.navbar-fixed-bottom  ul.nav.navbar-nav{
-	overflow: hidden;
+.hacknc-navbar.navbar-fixed-bottom .navbar-toggle {
+	margin-bottom: 0;
 }
