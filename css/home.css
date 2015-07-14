@@ -80,7 +80,18 @@ header #one {
 }
 
 .jumbotron {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+#mlh-trust-badge {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	max-width: 100px;
+	width: 10%;
+	min-width: 60px;
+	z-index:10;
 }
 
 #nav.affix {
