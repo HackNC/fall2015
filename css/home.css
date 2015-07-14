@@ -30,18 +30,32 @@ header #title {
   display: none;
 }
 
+header #five {
+  background-image: url(../images/gch/layer0.png);
+  z-index: 5;
+}
+
+header #four {
+  background-image: url(../images/gch/layer1.png);
+  z-index: 4;
+}
 header #three {
-  background-image: url(../images/front-mtn-layer.png);
+  background-image: url(../images/sitterson.png);
   z-index: 3;
 }
 
 header #two {
-  background-image: url(../images/2nd-mntn-and-waterfall.png);
+  background-image: url(../images/gch/layer2.png);
   z-index: 2;
 }
 
 header #one {
-  background-image: url(../images/background-mtns.png);
+  background-image: url(../images/gch/layer3.png);
+  z-index: 1;
+}
+
+header #zero {
+  background-image: url(../images/gch/layer4.png);
   z-index: 1;
 }
 
