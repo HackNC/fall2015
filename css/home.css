@@ -30,7 +30,7 @@ header.full-height > .jumbotron {
 }
 
 header #title {
-  bottom: 300px;
+  bottom: 245px;
   width: 70%;
   left: 15%;
   z-index: 6;
@@ -115,7 +115,7 @@ header #zero {
   max-width: 80px;
 	width: 10%;
 	min-width: 60px;
-  z-index: 3;
+  z-index: 4;
 }
 
 #nav.affix {
