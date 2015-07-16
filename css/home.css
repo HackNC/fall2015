@@ -1,10 +1,19 @@
-header > .jumbotron {
-  height: 1080px;
+.full-height > .jumbotron {
+  height: 800px;
   padding: 0;
 	margin: 0;
 }
 
-header > .jumbotron > div {
+.full-height #middle {
+	background-image: url(https://farm6.staticflickr.com/5350/17455358856_b808eec7d0_b.jpg);
+}
+
+.full-height #bottom {
+	background-image: url(https://farm4.staticflickr.com/3684/9496194776_c3610f5cf2_o.jpg);
+	background-position: center center;
+}
+
+.full-height > .jumbotron > div {
   background-size: cover;
   background-position: center bottom;
   height: inherit;
@@ -46,7 +55,7 @@ header #one {
 }
 
 header #zero {
-	background-color: powderblue;
+	background-color: rgb(235, 222, 222);
   z-index: 1;
 }
 
@@ -71,7 +80,6 @@ header #zero {
 }
 
 #invitation img {
-	max-width: 500px;
   width: 80%;
   margin: auto;
 }
