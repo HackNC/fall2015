@@ -6,15 +6,6 @@
 	margin: 0;
 }
 
-.full-height #middle {
-	background-image: url(https://farm6.staticflickr.com/5350/17455358856_b808eec7d0_b.jpg);
-}
-
-.full-height #bottom {
-	background-image: url(https://farm4.staticflickr.com/3684/9496194776_c3610f5cf2_o.jpg);
-	background-position: center center;
-}
-
 .full-height > .jumbotron > div {
   background-size: cover;
   background-position: center bottom;
