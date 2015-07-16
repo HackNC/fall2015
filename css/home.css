@@ -1,5 +1,7 @@
 .full-height > .jumbotron {
   height: 800px;
+  max-height: 1024px;
+  min-height: 400px;
   padding: 0;
 	margin: 0;
 }
@@ -18,15 +20,22 @@
   background-position: center bottom;
   height: inherit;
   width: 100%;
+  max-height: 1024px;
+  min-height: 400px;
   position: absolute;
 }
 
+header.full-height > .jumbotron {
+  position: relative;
+}
+
 header #title {
+  bottom: 300px;
   width: 70%;
   left: 15%;
   z-index: 6;
   height: initial;
-  display: none;
+  min-height: 0;
 }
 
 header #five {
@@ -35,23 +44,24 @@ header #five {
 }
 
 header #four {
-  background-image: url(../images/gch/layer1.png);
+  background-image: url(../images/gch/sitterson.png);
   z-index: 4;
 }
 header #three {
+  background-image: url(../images/gch/layer1.png);
   z-index: 3;
 }
 
 header #two {
   background-image: url(../images/gch/layer2.png);
   z-index: 2;
-	margin-top: -60px;
+  /*margin-top: -60px;*/
 }
 
 header #one {
   background-image: url(../images/gch/layer3.png);
   z-index: 1;
-	margin-top: -100px;
+  /*margin-top: -100px;*/
 }
 
 header #zero {
@@ -116,11 +126,11 @@ div#content.container
 #mlh-trust-badge {
 	position: absolute;
 	top: 0;
-	right: 50px;
-	max-width: 100px;
+  right: 25px;
+  max-width: 80px;
 	width: 10%;
 	min-width: 60px;
-	z-index:10;
+  z-index: 3;
 }
 
 #nav.affix {
