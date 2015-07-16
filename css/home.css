@@ -70,15 +70,30 @@ header #zero {
 }
 
 #invitation {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: ArcherBook;
 }
 
+div#content.container
+{
+  margin-top: 0px;
+}
+
+#invitation p
+{
+  margin: 0 0 2px;
+}
+
 #invitation .big {
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+#invitation .btn
+{
+  background-color: #CC2557;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
@@ -99,8 +114,8 @@ header #zero {
 }
 
 #invitation .content {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .jumbotron {
@@ -129,4 +144,10 @@ header #zero {
 
 #welcome p {
   font-size: 1.1em;
+}
+
+.panel-body
+{
+  font-size: 1.6rem;
+
 }

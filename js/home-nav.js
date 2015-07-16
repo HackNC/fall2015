@@ -1,6 +1,6 @@
-var navOffset = function () {
-  $('#content.container').css('margin-top', $('#nav').height() * 0.25);
-};
+// var navOffset = function () {
+//   $('#content.container').css('margin-top', $('#nav').height() * 0.25);
+// };
 
 var collapsedMenus = function() {
 	$('#nav button.navbar-toggle').on('click', function() {
