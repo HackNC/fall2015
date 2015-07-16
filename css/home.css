@@ -20,15 +20,10 @@ header.full-height > .jumbotron {
   position: relative;
 }
 
-header #title {
-  bottom: 245px;
-  width: 70%;
-  left: 15%;
+header #six {
+  background-image: url(../images/gch/title.png);
   z-index: 6;
-  height: initial;
-  min-height: 0;
 }
-
 header #five {
   background-image: url(../images/gch/layer0.png);
   z-index: 5;
