@@ -1,4 +1,8 @@
 /* Typography */
+p {
+	font-size: 16px;
+}
+
 nav, p, h1, h2, h3, h4, h5, li, span, div {
   font-family: ArcherBook;
 }
@@ -23,7 +27,7 @@ body .jumbotron {
 }
 
 .navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
-  background-color: #463E47;
+  background-color: #484146;
   color: white;
 }
 

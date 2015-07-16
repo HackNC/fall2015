@@ -1,9 +1,17 @@
-#contain-mlh {
+#unccs.contain {
+	max-width: 45%;
+}
+
+#mlh.contain {
 	max-width: 25%;
 }
 
 @media (max-width: 769px) {
-	#contain-mlh {
+	#unccs.contain {
+		width: 75%;
+		min-width: 300px;
+	}
+	#mlh.contain {
 		width: 50%;
 		min-width: 100px;
 	}

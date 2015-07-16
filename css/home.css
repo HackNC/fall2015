@@ -1,60 +1,90 @@
-.container {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 10px;
-}
-
-body {
-  background-image: url(../images/paper200.jpg);
-  background-repeat: repeat;
-}
-
-header > .jumbotron {
-  height: 1080px;
+.full-height > .jumbotron {
+  height: 800px;
+  max-height: 1024px;
+  min-height: 400px;
   padding: 0;
 	margin: 0;
 }
 
-header > .jumbotron > div {
+.full-height > .jumbotron > div {
   background-size: cover;
-  background-position: center center;
+  background-position: center bottom;
   height: inherit;
   width: 100%;
+  max-height: 1024px;
+  min-height: 400px;
   position: absolute;
 }
 
-header #title {
-  width: 70%;
-  left: 15%;
-  z-index: 4;
-  height: initial;
-  display: none;
+header.full-height > .jumbotron {
+  position: relative;
 }
 
+header #title {
+  bottom: 245px;
+  width: 70%;
+  left: 15%;
+  z-index: 6;
+  height: initial;
+  min-height: 0;
+}
+
+header #five {
+  background-image: url(../images/gch/layer0.png);
+  z-index: 5;
+}
+
+header #four {
+  background-image: url(../images/gch/sitterson.png);
+  z-index: 4;
+}
 header #three {
-  background-image: url(../images/front-mtn-layer.png);
+  background-image: url(../images/gch/layer1.png);
   z-index: 3;
 }
 
 header #two {
-  background-image: url(../images/2nd-mntn-and-waterfall.png);
+  background-image: url(../images/gch/layer2.png);
   z-index: 2;
+  /*margin-top: -60px;*/
 }
 
 header #one {
-  background-image: url(../images/background-mtns.png);
+  background-image: url(../images/gch/layer3.png);
+  z-index: 1;
+  /*margin-top: -100px;*/
+}
+
+header #zero {
+	background-color: rgb(235, 222, 222);
   z-index: 1;
 }
 
 #invitation {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: ArcherBook;
 }
 
+div#content.container
+{
+  margin-top: 0px;
+}
+
+#invitation p
+{
+  margin: 0 0 2px;
+}
+
 #invitation .big {
-  font-size: 4rem;
+  font-size: 2rem;
+}
+
+#invitation .btn
+{
+  background-color: #CC2557;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
@@ -75,8 +105,8 @@ header #one {
 }
 
 #invitation .content {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .jumbotron {
@@ -87,11 +117,11 @@ header #one {
 #mlh-trust-badge {
 	position: absolute;
 	top: 0;
-	right: 50px;
-	max-width: 100px;
+  right: 25px;
+  max-width: 80px;
 	width: 10%;
 	min-width: 60px;
-	z-index:10;
+  z-index: 4;
 }
 
 #nav.affix {
@@ -105,4 +135,10 @@ header #one {
 
 #welcome p {
   font-size: 1.1em;
+}
+
+.panel-body
+{
+  font-size: 1.6rem;
+
 }
