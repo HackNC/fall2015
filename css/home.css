@@ -132,8 +132,16 @@ div#content.container
   font-size: 1.1em;
 }
 
-.panel-body
-{
+.panel-body{
   font-size: 1.6rem;
+}
 
+@media (max-width : 598px) {
+	header #six {
+		display: none;
+	}
+	
+	header #four {
+		display: none;
+	}
 }
