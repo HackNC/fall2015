@@ -119,13 +119,16 @@ div#content.container
   z-index: 4;
 }
 
+#nav.affix-top {
+  z-index: 666;
+}
 #nav.affix {
 	top: 0;
 	border-width: 0 0 1px;
 	position: fixed;
 	right: 0;
 	left: 0;
-	z-index: 1030;
+	z-index: 666;
 }
 
 #welcome p {
