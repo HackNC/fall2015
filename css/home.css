@@ -1,58 +1,26 @@
-.full-height > .jumbotron {
-  height: 800px;
-  max-height: 1024px;
+header.full-height {
+  height: auto;
+  max-height: 1072px;
   min-height: 400px;
+  width: 100%;
+}
+header.full-height > .jumbotron {
+  height: inherit;
+  max-height: inherit;
+  min-height: inherit;
   padding: 0;
 	margin: 0;
+  background-color: rgb(235, 222, 222);
 }
 
-.full-height > .jumbotron > div {
+header.full-height > .jumbotron > div#header-image {
   background-size: cover;
   background-position: center bottom;
   height: inherit;
   width: 100%;
-  max-height: 1024px;
-  min-height: 400px;
-  position: absolute;
-}
-
-header.full-height > .jumbotron {
-  position: relative;
-}
-
-header #six {
-  background-image: url(../images/gch/title.png);
-  z-index: 6;
-}
-header #five {
-  background-image: url(../images/gch/layer0.png);
-  z-index: 5;
-}
-
-header #four {
-  background-image: url(../images/gch/sitterson.png);
-  z-index: 4;
-}
-header #three {
-  background-image: url(../images/gch/layer1.png);
-  z-index: 3;
-}
-
-header #two {
-  background-image: url(../images/gch/layer2.png);
-  z-index: 2;
-  /*margin-top: -60px;*/
-}
-
-header #one {
-  background-image: url(../images/gch/layer3.png);
-  z-index: 1;
-  /*margin-top: -100px;*/
-}
-
-header #zero {
-	background-color: rgb(235, 222, 222);
-  z-index: 1;
+  max-height: inherit;
+  min-height: inherit;
+  background-image: url(../images/gch2048.png);
 }
 
 #invitation {
@@ -139,12 +107,62 @@ div#content.container
   font-size: 1.6rem;
 }
 
-@media (max-width : 598px) {
-	header #six {
-		display: none;
-	}
-	
-	header #four {
-		display: none;
-	}
+@media (max-width : 1920px) {
+  #header-image {
+    background-image: url(../images/gch1920.png);
+  }
+
+  header {
+    max-height: 1005px;
+  }
+}
+
+@media (max-width : 1600px) {
+  #header-image {
+    background-image: url(../images/gch1600.png);
+  }
+
+  header {
+    max-height: 838px;
+  }
+}
+
+@media (max-width : 1440px) {
+  #header-image {
+    background-image: url(../images/gch1440.png);
+  }
+
+  header {
+    max-height: 754px;
+  }
+}
+
+@media (max-width : 1280px) {
+  #header-image {
+    background-image: url(../images/gch1280.png);
+  }
+
+  header {
+    max-height: 670px;
+  }
+}
+
+@media (max-width : 1024px) {
+  #header-image {
+    background-image: url(../images/gch1024.png);
+  }
+
+  header {
+    max-height: 536px;
+  }
+}
+
+@media (max-width : 768px) {
+  #header-image {
+    background-image: url(../images/gch768.png);
+  }
+
+  header {
+    max-height: 402px;
+  }
 }
