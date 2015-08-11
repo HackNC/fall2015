@@ -1,4 +1,4 @@
-header.full-height {
+header {
   height: auto;
   max-height: 1072px;
   min-height: 400px;
@@ -13,7 +13,7 @@ header.full-height > .jumbotron {
   background-color: rgb(235, 222, 222);
 }
 
-header.full-height > .jumbotron > div#header-image {
+#header-image {
   background-size: cover;
   background-position: center bottom;
   height: inherit;
@@ -164,5 +164,15 @@ div#content.container
 
   header {
     max-height: 402px;
+  }
+}
+
+@media (max-width : 450px) {
+  #header-image {
+    background-image: url(../images/gch450.png);
+  }
+
+  header {
+    max-height: 800px;
   }
 }
