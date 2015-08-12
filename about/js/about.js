@@ -1,18 +1,18 @@
-var numSlides = 24;
-var slides = [];
-var captions = [];
-for (var i = 0; i < numSlides; i++) {
-	slides[i] = 'images/bg (' + i + ').jpg';
-	captions[i] = 'test_caption: ' + i;
-}
+$(document).ready(function() {
+  var p = $("#gallery").portfolio();
+  p = $('#gallery').portfolio({
+    enableKeyboardNavigation: true, // enable / disable keyboard navigation (default: true)
+    loop: true, // loop on / off (default: false)
+    easingMethod: 'easeOutQuint', // other easing methods please refer: http://gsgd.co.uk/sandbox/jquery/easing/
+    height: '500px', // gallery height
+    width: '100%', // gallery width in pixels or in percentage
+    lightbox: false, // dim off other images, highlights only currently viewing image
+    showArrows: true, // show next / prev buttons
+    logger: false, // for debugging purpose, turns on/off console.log() statements in the script
+    spinnerColor: '#000', // Ajax loader color
+    offsetLeft: -4, // position left value for current image
+    opacityLightbox: '0.2' // opacity of other images which are not active
 
-$.backstretch(slides, {duration: 3333, fade: 666});
-
-$('#caption-btn').on('click', function() {
-	$('#caption').fadeToggle();
-});
-
-$(window).on('backstretch.show', function(e, instance) {
-  var caption = captions[instance.index];
-  $('#caption').html('<a href="' + slides[instance.index] + '">' + caption +  '</a><div class="ripple-wrapper"></div>');
+  });
+  p.init();
 });
