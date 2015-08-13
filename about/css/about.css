@@ -297,7 +297,7 @@ Single slide style
   transform: translateX(-50%) translateY(-50%);
 }
 .cd-hero-slider h2, .cd-hero-slider p {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   line-height: 1.2;
   margin: 0 auto 14px;
   color: #ffffff;
@@ -514,7 +514,7 @@ Slider navigation
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 6.666%;
+  width: 6%;
   height: 100%;
   color: #d44457;
   background-color: #ffffff;
@@ -628,7 +628,7 @@ Slider navigation
   display: table;
 }
 .cd-slider-nav li {
-  width: 6.666%;
+  width: 6%;
   display: inline-block;
   float: left;
 }
@@ -639,7 +639,7 @@ Slider navigation
   background-color: transparent;
 }
 .cd-slider-nav a {
-  border-left: 1px solid white;
+  border-right: 1px solid white;
   display: block;
   position: relative;
   color: #a8b4be;
