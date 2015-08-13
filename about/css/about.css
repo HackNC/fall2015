@@ -6,6 +6,7 @@ Main Components
 ol,ul {
   list-style: none;
   padding: 0;
+  margin-bottom: 0;
 }
 .cd-header {
   position: absolute;
