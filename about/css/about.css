@@ -185,7 +185,7 @@ Single slide style
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #463E47;
+  background-color: black;
 }
 .cd-hero-slider li:first-of-type {
 }
@@ -196,31 +196,31 @@ Single slide style
   background-image: url(../images/jack-tower.jpg);
 }
 .cd-hero-slider li:nth-of-type(4) {
-  background-image: url(../images/innovate.jpg);
+  background-image: url(../images/old-pizza.jpg);
 }
 .cd-hero-slider li:nth-of-type(5) {
-  background-image: url(../images/vr-guys.jpg);
+  background-image: url(../images/innovate.jpg);
 }
 .cd-hero-slider li:nth-of-type(6) {
-  background-image: url(../images/tyler-thinking.jpg);
+  background-image: url(../images/vr-guys.jpg);
 }
 .cd-hero-slider li:nth-of-type(7) {
-  background-image: url(../images/old-pizza.jpg);
+  background-image: url(../images/tyler-thinking.jpg);
 }
 .cd-hero-slider li:nth-of-type(8) {
   background-image: url(../images/leap-motion-wow.jpg);
 }
 .cd-hero-slider li:nth-of-type(9) {
-  background-image: url(../images/joao.jpg);
+  background-image: url(../images/engaging.jpg);
 }
 .cd-hero-slider li:nth-of-type(10) {
   background-image: url(../images/smile-and-wave.jpg);
 }
 .cd-hero-slider li:nth-of-type(11) {
-  background-image: url(../images/ryan-leap.jpg);
+  background-image: url(../images/highschool.jpg);
 }
 .cd-hero-slider li:nth-of-type(12) {
-  background-image: url(../images/christian.jpg);
+  background-image: url(../images/oculus.jpg);
 }
 .cd-hero-slider li:nth-of-type(13) {
   background-image: url(../images/jack-marquis.jpg);
