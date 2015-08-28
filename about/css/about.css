@@ -639,7 +639,6 @@ Slider navigation
   background-color: transparent;
 }
 .cd-slider-nav a {
-  border-right: 1px solid white;
   display: block;
   position: relative;
   color: #a8b4be;
