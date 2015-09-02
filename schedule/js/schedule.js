@@ -1,11 +1,7 @@
 function scheduleLoad(){
     //alert("Load");
     //get JSON
-<<<<<<< HEAD
-    var url = "schedule.json"
-=======
     var url = "/schedule/schedule.json"
->>>>>>> origin/gh-pages
     $.getJSON(url , function(data) {
         console.log(data);
 		var fritable = $("ul#fritable");
