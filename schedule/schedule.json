@@ -3,7 +3,11 @@
 		{"starttime" : "5:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Check-in opens"},
+=======
+		"title": "Check-in Opens"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "5:30 PM", 
 		"endtime" : "",
@@ -13,32 +17,56 @@
 		{"starttime" : "6:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Guest lectures"},
+=======
+		"title": "Guest Lectures"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "7:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Hardware event"},
+=======
+		"title": "Hardware Event"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "8:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Team formation"},
+=======
+		"title": "Team Formation"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "9:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Snack time!"},
+=======
+		"title": "Snack Time!"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
+<<<<<<< HEAD
 		"title": "Sleeping accommodations"},
+=======
+		"title": "Sleeping Accomidations"},
+>>>>>>> origin/gh-pages
 
 		{"starttime" : "7:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Registration opens"},
+=======
+		"title": "Registration Opens"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "7:00 AM", 
 		"endtime" : "",
@@ -53,7 +81,11 @@
 		{"starttime" : "10:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Hacking begins!"},
+=======
+		"title": "Hacking Begins!"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "10:00 AM", 
 		"endtime" : "",
@@ -63,7 +95,11 @@
 		{"starttime" : "11:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Tech talks begin"},
+=======
+		"title": "Tech Talk"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "12:00 PM", 
 		"endtime" : "",
@@ -73,7 +109,11 @@
 		{"starttime" : "1:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Talks continue"},
+=======
+		"title": "Talks Continue"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "5:30 PM", 
 		"endtime" : "",
@@ -88,12 +128,20 @@
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Snack time!"},
+=======
+		"title": "Snack Time!"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
+<<<<<<< HEAD
 		"title": "Sleeping accommodations"},
+=======
+		"title": "Sleeping Accomidations"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "6:30 AM", 
 		"endtime" : "",
@@ -103,7 +151,11 @@
 		{"starttime" : "10:30 AM", 
 		"endtime" : "",
 		"day" : "Sunday",
+<<<<<<< HEAD
 		"title": "Hacking ends!"},
+=======
+		"title": "Hacking Ends!"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "11:30 AM", 
 		"endtime" : "",
@@ -113,12 +165,20 @@
 		{"starttime" : "12:30 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
+<<<<<<< HEAD
 		"title": "Demos and presentations"},
+=======
+		"title": "Demos and Presentations"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "2:00 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
+<<<<<<< HEAD
 		"title": "Judged deliberate"},
+=======
+		"title": "Judged Deliberate"},
+>>>>>>> origin/gh-pages
 		
 		{"starttime" : "2:30 PM", 
 		"endtime" : "",
@@ -130,4 +190,8 @@
 		"day" : "Sunday",
 		"title": "Time to go home!"}
 	]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/gh-pages
