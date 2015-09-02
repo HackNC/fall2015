@@ -1,7 +1,7 @@
 function scheduleLoad(){
     //alert("Load");
     //get JSON
-    var url = "schedule.json"
+    var url = "/schedule/schedule.json"
     $.getJSON(url , function(data) {
         console.log(data);
 		var fritable = $("ul#fritable");
