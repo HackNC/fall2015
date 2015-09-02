@@ -3,7 +3,7 @@
 		{"starttime" : "5:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Check-in Opens"},
+		"title": "Check-in opens"},
 		
 		{"starttime" : "5:30 PM", 
 		"endtime" : "",
@@ -13,32 +13,32 @@
 		{"starttime" : "6:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Guest Lectures"},
+		"title": "Guest lectures"},
 		
 		{"starttime" : "7:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Hardware Event"},
+		"title": "Hardware event"},
 		
 		{"starttime" : "8:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Team Formation"},
+		"title": "Team formation"},
 		
 		{"starttime" : "9:30 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Snack Time!"},
+		"title": "Snack time!"},
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Friday",
-		"title": "Sleeping Accomidations"},
+		"title": "Sleeping accommodations"},
 
 		{"starttime" : "7:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Registration Opens"},
+		"title": "Registration opens"},
 		
 		{"starttime" : "7:00 AM", 
 		"endtime" : "",
@@ -53,7 +53,7 @@
 		{"starttime" : "10:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Hacking Begins!"},
+		"title": "Hacking begins!"},
 		
 		{"starttime" : "10:00 AM", 
 		"endtime" : "",
@@ -63,7 +63,7 @@
 		{"starttime" : "11:00 AM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Tech Talk"},
+		"title": "Tech talks begin"},
 		
 		{"starttime" : "12:00 PM", 
 		"endtime" : "",
@@ -73,7 +73,7 @@
 		{"starttime" : "1:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Talks Continue"},
+		"title": "Talks continue"},
 		
 		{"starttime" : "5:30 PM", 
 		"endtime" : "",
@@ -88,12 +88,12 @@
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Snack Time!"},
+		"title": "Snack time!"},
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "",
 		"day" : "Saturday",
-		"title": "Sleeping Accomidations"},
+		"title": "Sleeping accommodations"},
 		
 		{"starttime" : "6:30 AM", 
 		"endtime" : "",
@@ -103,7 +103,7 @@
 		{"starttime" : "10:30 AM", 
 		"endtime" : "",
 		"day" : "Sunday",
-		"title": "Hacking Ends!"},
+		"title": "Hacking ends!"},
 		
 		{"starttime" : "11:30 AM", 
 		"endtime" : "",
@@ -113,12 +113,12 @@
 		{"starttime" : "12:30 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
-		"title": "Demos and Presentations"},
+		"title": "Demos and presentations"},
 		
 		{"starttime" : "2:00 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
-		"title": "Judged Deliberate"},
+		"title": "Judged deliberate"},
 		
 		{"starttime" : "2:30 PM", 
 		"endtime" : "",
