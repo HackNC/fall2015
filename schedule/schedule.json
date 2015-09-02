@@ -1,0 +1,133 @@
+{ "events" : [
+
+		{"starttime" : "5:00 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Check-in Opens"},
+		
+		{"starttime" : "5:30 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Dinner is served"},
+		
+		{"starttime" : "6:00 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Guest Lectures"},
+		
+		{"starttime" : "7:30 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Hardware Event"},
+		
+		{"starttime" : "8:30 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Team Formation"},
+		
+		{"starttime" : "9:30 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Snack Time!"},
+		
+		{"starttime" : "10:00 PM", 
+		"endtime" : "",
+		"day" : "Friday",
+		"title": "Sleeping Accomidations"},
+
+		{"starttime" : "7:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Registration Opens"},
+		
+		{"starttime" : "7:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Breakfast is served"},
+		
+		{"starttime" : "9:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Keynote"},
+		
+		{"starttime" : "10:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Hacking Begins!"},
+		
+		{"starttime" : "10:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Final Round of team formation"},
+		
+		{"starttime" : "11:00 AM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Tech Talk"},
+		
+		{"starttime" : "12:00 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Lunch is served"},
+		
+		{"starttime" : "1:00 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Talks Continue"},
+		
+		{"starttime" : "5:30 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Dinner is served"},
+		
+		{"starttime" : "7:00 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Mini-event for fun"},
+		
+		{"starttime" : "10:00 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Snack Time!"},
+		
+		{"starttime" : "10:00 PM", 
+		"endtime" : "",
+		"day" : "Saturday",
+		"title": "Sleeping Accomidations"},
+		
+		{"starttime" : "6:30 AM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Breakfast is served"},
+		
+		{"starttime" : "10:30 AM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Hacking Ends!"},
+		
+		{"starttime" : "11:30 AM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Lunch is served"},
+		
+		{"starttime" : "12:30 PM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Demos and Presentations"},
+		
+		{"starttime" : "2:00 PM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Judged Deliberate"},
+		
+		{"starttime" : "2:30 PM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Prizes are awarded"},
+		
+		{"starttime" : "4:00 PM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Time to go home!"}
+	]
+}
