@@ -1,6 +1,6 @@
 function scheduleLoad(){
     //get JSON
-    var url = "/schedule/schedule.json"
+    var url = "schedule.json";
     $.getJSON(url , function(data) {
 	var fritable = $("ul#fritable");
 	var sattable = $("ul#sattable");
