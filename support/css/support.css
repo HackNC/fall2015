@@ -9,8 +9,6 @@
 #sponsors img {
 	max-width: 80%;
 	margin: auto;
-	margin-top: 5%;
-	margin-bottom: 5%;
 }
 
 @media (max-width: 769px) {
@@ -23,3 +21,4 @@
 		min-width: 100px;
 	}
 }
+
