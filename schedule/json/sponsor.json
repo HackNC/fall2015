@@ -1,0 +1,93 @@
+{ "events" : [
+
+		{"starttime" : "7:30 AM", 
+		"endtime" : "8:20 AM",
+		"day" : "Saturday",
+		"title": "Registration opens"},
+	
+		{"starttime" : "7:30 AM", 
+		"endtime" : "8:20 AM",
+		"day" : "Saturday",
+		"title": "Breakfast is served"},
+	
+		{"starttime" : "8:00 AM", 
+		"endtime" : "8:25 AM",
+		"day" : "Saturday",
+		"title": "Welcome meeting"},
+		
+		{"starttime" : "9:00 AM", 
+		"endtime" : "9:50 AM",
+		"day" : "Saturday",
+		"title": "Keynote"},
+		
+		{"starttime" : "10:00 AM", 
+		"endtime" : "1:50 PM",
+		"day" : "Saturday",
+		"title": "Sponsor fair"},
+		
+		{"starttime" : "11:30 AM", 
+		"endtime" : "12:20 AM",
+		"day" : "Saturday",
+		"title": "Lunch is served"},
+		
+		{"starttime" : "2:00 PM", 
+		"endtime" : "2:50 PM",
+		"day" : "Saturday",
+		"title": "Tech talk slot"},
+		
+		{"starttime" : "3:00 PM", 
+		"endtime" : "3:50 PM",
+		"day" : "Saturday",
+		"title": "Tech talk slot"},
+		
+		{"starttime" : "4:00 PM", 
+		"endtime" : "4:50 PM",
+		"day" : "Saturday",
+		"title": "Tech talk slot"},
+		
+		{"starttime" : "5:00 PM", 
+		"endtime" : "6:20 PM",
+		"day" : "Saturday",
+		"title": "Dinner"},
+		
+		{"starttime" : "6:00 PM", 
+		"endtime" : "6:50 PM",
+		"day" : "Saturday",
+		"title": "Tech talk slot"},
+				
+		{"starttime" : "7:30 AM", 
+		"endtime" : "8:20 AM",
+		"day" : "Sunday",
+		"title": "Breakfast is served"},
+		
+		{"starttime" : "10:30 AM", 
+		"endtime" : "",
+		"day" : "Sunday",
+		"title": "Hacking ends!"},
+		
+		{"starttime" : "11:00 AM", 
+		"endtime" : "11:50 AM",
+		"day" : "Sunday",
+		"title": "Judging meeting and lunch"},
+		
+		{"starttime" : "12:30 PM", 
+		"endtime" : "1:50 PM",
+		"day" : "Sunday",
+		"title": "Demos and presentations"},
+		
+		{"starttime" : "2:00 PM", 
+		"endtime" : "2:25 PM",
+		"day" : "Sunday",
+		"title": "Judges deliberate"},
+
+		{"starttime" : "2:30 PM", 
+		"endtime" : "3:50 PM",
+		"day" : "Sunday",
+		"title": "Closing ceremony"},
+		
+		{"starttime" : "3:30 PM", 
+		"endtime" : "5:20 PM",
+		"day" : "Sunday",
+		"title": "Check out"}
+	]
+}
