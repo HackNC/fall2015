@@ -15,11 +15,23 @@ var collapsedMenus = function() {
     if (!$(this).parent().hasClass('open')) {
       var collapsedSideMenuHeight;
       if ($('#nav .navbar-toggle').is(':visible')) {
-        collapsedSideMenuHeight = 133 + 323.5;
+        collapsedSideMenuHeight = 133 + 323.5; // What is this?
       } else {
         collapsedSideMenuHeight = 133;
       }
       collapseOffset('#nav #side-menu > a', collapsedSideMenuHeight);
+		}
+	});
+	
+	$('#nav #about-menu > a').on('click', function () {
+    if (!$(this).parent().hasClass('open')) {
+      var collapsedSideMenuHeight;
+      if ($('#nav .navbar-toggle').is(':visible')) {
+        collapsedSideMenuHeight = 114 + 323.5;
+      } else {
+        collapsedSideMenuHeight = 114;
+      }
+      collapseOffset('#nav #about-menu > a', collapsedSideMenuHeight);
 		}
 	});
 };
