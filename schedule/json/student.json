@@ -8,17 +8,47 @@
 		{"starttime" : "5:30 PM", 
 		"endtime" : "7:00 PM",
 		"day" : "Friday",
-		"title": "Dinner is served"},
+		"title": "Pizza brought to you in part by IBM"},
 		
-		{"starttime" : "6:00 PM", 
-		"endtime" : "6:50 PM",
+	  {"starttime" : "6:30 PM", 
+		"endtime" : "7:20 PM",
 		"day" : "Friday",
-		"title": "Guest lectures"},
+		"title": "Introduction to Pygame"},
+	
+		{"starttime" : "6:30 PM", 
+		"endtime" : "7:20 PM",
+		"day" : "Friday",
+		"title": "DJing from a Computer Scientist's Perspective"},
+	
+		{"starttime" : "6:30 PM", 
+		"endtime" : "7:20 PM",
+		"day" : "Friday",
+		"title": "TBA"},
 	
 		{"starttime" : "7:30 PM", 
 		"endtime" : "8:20 PM",
 		"day" : "Friday",
-		"title": "Hardware event"},
+		"title": "Maknet (Hardware Workshop)"},
+	
+		{"starttime" : "7:30 PM", 
+		"endtime" : "8:20 PM",
+		"day" : "Friday",
+		"title": "Introduction to iOS Programming with Swift"},
+	
+		{"starttime" : "7:30 PM", 
+		"endtime" : "8:20 PM",
+		"day" : "Friday",
+		"title": "IBM Bluemix"},
+	
+		{"starttime" : "8:30 PM", 
+		"endtime" : "9:20 PM",
+		"day" : "Friday",
+		"title": "Introduction to Juiciness"},
+	
+		{"starttime" : "8:30 PM", 
+		"endtime" : "9:20 PM",
+		"day" : "Friday",
+		"title": "TBA"},
 	
 		{"starttime" : "8:30 PM", 
 		"endtime" : "9:20 PM",
@@ -31,9 +61,19 @@
 		"title": "Snack time!"},
 	
 		{"starttime" : "10:00 PM", 
-		"endtime" : "7:00 AM",
+		"endtime" : "8:00 AM",
 		"day" : "Friday",
-		"title": "Sleeping room is available"},
+		"title": "Sleeping rooms are available"},
+	
+		{"starttime" : "10:00 PM", 
+		"endtime" : "10:50 PM",
+		"day" : "Friday",
+		"title": "TBA"},
+		
+		{"starttime" : "11:00 PM", 
+		"endtime" : "1:00 AM",
+		"day" : "Friday",
+		"title": "Super Secret Event"},
 	
 		{"starttime" : "6:30 AM", 
 		"endtime" : "8:45 AM",
@@ -55,15 +95,15 @@
 		"day" : "Saturday",
 		"title": "Keynote"},
 		
-		{"starttime" : "10:00 AM", 
-		"endtime" : "",
+		{"starttime" : "11:00 AM", 
+		"endtime" : "11:30 AM",
 		"day" : "Saturday",
 		"title": "Hacking begins!"},
 		
 		{"starttime" : "10:00 AM", 
 		"endtime" : "10:50 AM",
 		"day" : "Saturday",
-		"title": "Team formation"},
+		"title": "Think, Type: Magic Happens. Making the world a bit better with CS."},
 	
 	  {"starttime" : "10:00 AM", 
 		"endtime" : " 1:50 PM",
@@ -71,15 +111,30 @@
 		"title": "Sponsor fair"},
 		
 		{"starttime" : "11:00 AM", 
-		"endtime" : "6:00 PM",
+		"endtime" : "11:50 AM",
 		"day" : "Saturday",
-		"title": "Tech talks"},
-		
+		"title": "How NOT to Drop Out of College to Pursue a Startup"},
+	
 		{"starttime" : "11:45 AM", 
 		"endtime" : "1:00 PM",
 		"day" : "Saturday",
-		"title": "Lunch is served"},
+		"title": "Noodles and Company brought to you in part by Esri"},
 		
+		{"starttime" : "12:30 PM", 
+		"endtime" : "1:20 PM",
+		"day" : "Saturday",
+		"title": "Advanced Web Development"},
+	
+		{"starttime" : "1:30 PM", 
+		"endtime" : "2:20 PM",
+		"day" : "Saturday",
+		"title": "TBA"},
+
+		{"starttime" : "2:30 PM", 
+		"endtime" : "3:20 PM",
+		"day" : "Saturday",
+		"title": "Capital One: Continuous Learning--“How to avoid becoming a Dinosaur\""},
+	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
@@ -93,7 +148,7 @@
 		{"starttime" : "10:00 PM", 
 		"endtime" : "10:50 PM",
 		"day" : "Saturday",
-		"title": "Snack time!"},
+		"title": "Late night snack courtesy of Namecheap"},
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "7:00 AM",
@@ -106,14 +161,14 @@
 		"title": "Breakfast is served"},
 		
 		{"starttime" : "11:00 AM", 
-		"endtime" : "",
+		"endtime" : "11:30 AM",
 		"day" : "Sunday",
 		"title": "Hacking ends!"},
 		
 		{"starttime" : "11:30 AM", 
 		"endtime" : "1:00 PM",
 		"day" : "Sunday",
-		"title": "Lunch is served"},
+		"title": "Firehouse Subs brought to you in part by Capital One"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:50 PM",

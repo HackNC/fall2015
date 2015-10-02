@@ -30,15 +30,20 @@
 		"day" : "Saturday",
 		"title": "Lunch is served"},
 		
+		{"starttime" : "1:00 PM", 
+		"endtime" : "1:50 PM",
+		"day" : "Saturday",
+		"title": "Esri tech talk"},
+	
 		{"starttime" : "2:00 PM", 
 		"endtime" : "2:50 PM",
 		"day" : "Saturday",
-		"title": "Tech talk slot"},
+		"title": "SQL Sentry tech talk"},
 		
 		{"starttime" : "3:00 PM", 
 		"endtime" : "3:50 PM",
 		"day" : "Saturday",
-		"title": "Tech talk slot"},
+		"title": "Capital One tech talk"},
 		
 		{"starttime" : "4:00 PM", 
 		"endtime" : "4:50 PM",
@@ -49,11 +54,6 @@
 		"endtime" : "6:20 PM",
 		"day" : "Saturday",
 		"title": "Dinner"},
-		
-		{"starttime" : "6:00 PM", 
-		"endtime" : "6:50 PM",
-		"day" : "Saturday",
-		"title": "Tech talk slot"},
 				
 		{"starttime" : "7:30 AM", 
 		"endtime" : "8:20 AM",

@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="HackNC - Schedule" />
+	<meta property="og:title" content="HackNC - Schedule" />
 	<meta property="og:site_name" content="HackNC 2015" />
-  <meta property="og:url" content="http://hacknc.com/schedule/" />
+	<meta property="og:url" content="http://hacknc.com/schedule/" />
 	<meta property="og:description" content="October 9-11, 2015. More details here." />
 	<meta property="og:image" content="http://hacknc.com/images/facebookPreview.png" />
 	<meta property="og:updated_time" content="1439328118" />
@@ -15,16 +15,16 @@
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="../css/material-fullpalette.min.css" />
 	<link type="text/css" rel="stylesheet" href="../css/hacknc.css" />
+	<link type="text/css" rel="stylesheet" href="css/schedule.css" />
 	<title>Schedule for HackNC</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 </head>
-	
+
 <body>
-<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
+	<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
-                aria-expanded="false">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -32,17 +32,21 @@
 				</button>
 				<a class="navbar-brand" href="..">HackNC</a>
 			</div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
+			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 							About <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="../about">Us</a></li>
-							<li><a href="../about/travel">Travel</a></li>
-							<li><a href="../about/rules">Rules</a></li>
-							<li><a href="../about/prizes">Prizes</a></li>
+							<li><a href="../about">Us</a>
+							</li>
+							<li><a href="../about/travel">Travel</a>
+							</li>
+							<li><a href="../about/rules">Rules</a>
+							</li>
+							<li><a href="../about/prizes">Prizes</a>
+							</li>
 						</ul>
 					</li>
 					<li>
@@ -89,7 +93,8 @@
 				Schedule for the weekend
 			</h1>
 			<p>Sponsors and mentors, these are all the events you need to look out for during your time at HackNC!</p>
-			<p><a href="index.html">&lt; Back to the student schedule</a></p>
+			<p><a href="index.html">&lt; Back to the student schedule</a>
+			</p>
 		</div>
 	</div>
 	<div class="container">
@@ -99,11 +104,17 @@
 					<div class="panel-heading">
 						<h3>Saturday</h3>
 					</div>
-					<div class="panel-body">
-						<ul id="sattable">
-							<li></li>
-						</ul>					
-					</div>
+					<table class="table table-striped table-hover panel-body">
+						<thead>
+							<tr>
+								<th>Start</th>
+								<th>End</th>
+								<th>Event</th>
+								<!--<th>Location</th>-->
+							</tr>
+						</thead>
+						<tbody id="sattable"></tbody>
+					</table>
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-6">
@@ -111,11 +122,17 @@
 					<div class="panel-heading">
 						<h3>Sunday</h3>
 					</div>
-					<div class="panel-body">
-						<ul id="sntable">
-							<li></li>
-						</ul>					
-					</div>
+					<table class="table table-striped table-hover panel-body">
+						<thead>
+							<tr>
+								<th>Start</th>
+								<th>End</th>
+								<th>Event</th>
+								<!--<th>Location</th>-->
+							</tr>
+						</thead>
+						<tbody id="sntable"></tbody>
+					</table>
 				</div>
 			</div>
 		</div>
