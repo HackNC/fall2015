@@ -8,7 +8,7 @@
 		{"starttime" : "5:30 PM", 
 		"endtime" : "7:00 PM",
 		"day" : "Friday",
-		"title": "Pizza brought to you in part by IBM"},
+		"title": "Amante Gourmet Pizza brought to you in part by IBM"},
 		
 	  {"starttime" : "6:30 PM", 
 		"endtime" : "7:20 PM",
@@ -133,12 +133,12 @@
 		{"starttime" : "2:30 PM", 
 		"endtime" : "3:20 PM",
 		"day" : "Saturday",
-		"title": "Capital One: Continuous Learning--“How to avoid becoming a Dinosaur\""},
+		"title": "Capital One: Continuous Learning--\"How to avoid becoming a Dinosaur\""},
 	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
-		"title": "Dinner is served"},
+		"title": "Stubbs and Son Barbecue and Mediterranean Deli brought to you in part by SQL Sentry"},
 		
 		{"starttime" : "7:00 PM", 
 		"endtime" : "11:00 PM",
