@@ -94,31 +94,31 @@
 		"endtime" : "8:45 AM",
 		"day" : "Saturday",
 		"title": "Breakfast is served",
-    "room": "TBA"},
+    "room": "CHAP Lawn"},
 	
 	  {"starttime" : "7:00 AM", 
 		"endtime" : " 8:45 AM",
 		"day" : "Saturday",
 		"title": "Check-in",
-    "room": "TBA"},
+    "room": "CHAP Lawn"},
 	
 		{"starttime" : "8:45 AM", 
 		"endtime" : " 2:50 PM",
 		"day" : "Saturday",
 		"title": "Late check-in",
-		"room": "TBA"},
+		"room": "FB Lobby"},
 		
 		{"starttime" : "9:00 AM", 
 		"endtime" : "9:50 AM",
 		"day" : "Saturday",
 		"title": "Keynote",
-		"room": "TBA"},
+		"room": "CAR 111"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:30 AM",
 		"day" : "Saturday",
 		"title": "Hacking begins!",
-		"room": "TBA"},
+		"room": "PH, SN, CAR"},
 		
 		{"starttime" : "10:00 AM", 
 		"endtime" : "10:50 AM",
@@ -130,7 +130,7 @@
 		"endtime" : " 1:50 PM",
 		"day" : "Saturday",
 		"title": "Sponsor fair",
-		"room": "TBA"},
+		"room": "SN Lobby"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:50 AM",
@@ -142,7 +142,7 @@
 		"endtime" : "1:00 PM",
 		"day" : "Saturday",
 		"title": "Noodles and Company brought to you in part by Esri",
-		"room": "TBA"},
+		"room": "CHAP Lawn"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:20 PM",
@@ -166,7 +166,7 @@
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
 		"title": "Stubbs and Son Barbecue and Mediterranean Deli brought to you in part by SQL Sentry",
-		"room": "TBA"},
+		"room": "CHAP Lawn"},
 		
 		{"starttime" : "7:00 PM", 
 		"endtime" : "11:00 PM",
@@ -190,25 +190,25 @@
 		"endtime" : "9:00 AM",
 		"day" : "Sunday",
 		"title": "Breakfast is served",
-		"room": "TBA"},
+		"room": "CHAP Lawn"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:30 AM",
 		"day" : "Sunday",
 		"title": "Hacking ends!",
-		"room": "TBA"},
+		"room": ""},
 		
 		{"starttime" : "11:30 AM", 
 		"endtime" : "1:00 PM",
 		"day" : "Sunday",
 		"title": "Firehouse Subs brought to you in part by Capital One",
-		"room": "TBA"},
+		"room": "CHAP Lawn"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:50 PM",
 		"day" : "Sunday",
 		"title": "Demos and project presentations",
-		"room": "TBA"},
+		"room": "SN Lobby"},
 		
 		{"starttime" : "2:00 PM", 
 		"endtime" : "2:30 PM",
@@ -220,12 +220,12 @@
 		"endtime" : "3:50 PM",
 		"day" : "Sunday",
 		"title": "Prizes are awarded",
-		"room": "TBA"},
+		"room": "CAR 111"},
 		
 		{"starttime" : "4:00 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
 		"title": "Time to go home!",
-		"room": "TBA"}
+		"room": ""}
 	]
 }
