@@ -106,125 +106,126 @@
 		"endtime" : " 2:50 PM",
 		"day" : "Saturday",
 		"title": "Late check-in",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "9:00 AM", 
 		"endtime" : "9:50 AM",
 		"day" : "Saturday",
 		"title": "Keynote",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:30 AM",
 		"day" : "Saturday",
 		"title": "Hacking begins!",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "10:00 AM", 
 		"endtime" : "10:50 AM",
 		"day" : "Saturday",
 		"title": "Think, Type: Magic Happens. Making the world a bit better with CS.",
-		"room": "TBA"}
+		"room": "TBA"},
 	
 	  {"starttime" : "10:00 AM", 
 		"endtime" : " 1:50 PM",
 		"day" : "Saturday",
 		"title": "Sponsor fair",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:50 AM",
 		"day" : "Saturday",
 		"title": "How NOT to Drop Out of College to Pursue a Startup",
-		"room": "TBA"}
+		"room": "TBA"},
 	
 		{"starttime" : "11:45 AM", 
 		"endtime" : "1:00 PM",
 		"day" : "Saturday",
 		"title": "Noodles and Company brought to you in part by Esri",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:20 PM",
 		"day" : "Saturday",
 		"title": "Advanced Web Development",
-		"room": "TBA"}
+		"room": "TBA"},
 	
 		{"starttime" : "1:30 PM", 
 		"endtime" : "2:20 PM",
 		"day" : "Saturday",
 		"title": "TBA",
-		"room": "TBA"}
+		"room": "TBA"},
 
 		{"starttime" : "2:30 PM", 
 		"endtime" : "3:20 PM",
 		"day" : "Saturday",
 		"title": "Capital One: Continuous Learning--\"How to avoid becoming a Dinosaur\"",
-		"room": "TBA"}
+		"room": "TBA"},
 	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
 		"title": "Stubbs and Son Barbecue and Mediterranean Deli brought to you in part by SQL Sentry",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "7:00 PM", 
 		"endtime" : "11:00 PM",
 		"day" : "Saturday",
 		"title": "Mini-events for fun",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "10:50 PM",
 		"day" : "Saturday",
 		"title": "Late night snack courtesy of Namecheap",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "10:00 PM", 
 		"endtime" : "7:00 AM",
 		"day" : "Saturday",
 		"title": "Sleeping room available",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "6:30 AM", 
 		"endtime" : "9:00 AM",
 		"day" : "Sunday",
 		"title": "Breakfast is served",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "11:00 AM", 
 		"endtime" : "11:30 AM",
 		"day" : "Sunday",
 		"title": "Hacking ends!",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "11:30 AM", 
 		"endtime" : "1:00 PM",
 		"day" : "Sunday",
 		"title": "Firehouse Subs brought to you in part by Capital One",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:50 PM",
 		"day" : "Sunday",
 		"title": "Demos and project presentations",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "2:00 PM", 
 		"endtime" : "2:30 PM",
 		"day" : "Sunday",
 		"title": "Judges deliberate",
-		"room": "TBA"}
+		"room": "TBA"},
 
 		{"starttime" : "2:30 PM", 
 		"endtime" : "3:50 PM",
 		"day" : "Sunday",
 		"title": "Prizes are awarded",
-		"room": "TBA"}
+		"room": "TBA"},
 		
 		{"starttime" : "4:00 PM", 
 		"endtime" : "",
 		"day" : "Sunday",
 		"title": "Time to go home!",
-		"room": "TBA"}	]
+		"room": "TBA"}
+	]
 }
