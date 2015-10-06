@@ -14,7 +14,7 @@ var scheduleLoad = function(url) {
 			} else {
 				table = sntable;
 			}
-			table.append("<tr><td>" + thisEvent.starttime + "</td><td>" + thisEvent.endtime + "</td><td>" + thisEvent.title + "</td></tr>");
+			table.append("<tr><td>" + thisEvent.starttime + "</td><td>" + thisEvent.endtime + "</td><td>" + thisEvent.room + "</td><td>" + thisEvent.title + "</td></tr>");
 		}
 	});
 };
