@@ -54,6 +54,12 @@
 		"title": "Capital One tech talk",
 		"room": "TBA"},
 		
+	 {"starttime" : "3:30 PM", 
+		"endtime" : "4:20 PM",
+		"day" : "Saturday",
+		"title": "Esri workshop",
+		"room": "TBA"},
+		
 		{"starttime" : "5:00 PM", 
 		"endtime" : "6:20 PM",
 		"day" : "Saturday",

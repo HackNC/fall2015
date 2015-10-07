@@ -162,6 +162,12 @@
 		"title": "Capital One: Continuous Learning--\"How to avoid becoming a Dinosaur\"",
 		"room": "TBA"},
 	
+	 {"starttime" : "3:30 PM",
+	 "endtime" : "4:20 PM",
+	 "day" : "Saturday",
+	 "title" : "Esri Workshop",
+	 "room" : "TBA"},
+	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
