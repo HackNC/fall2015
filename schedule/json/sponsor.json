@@ -45,7 +45,7 @@
 		{"starttime" : "1:30 PM", 
 		"endtime" : "2:20 PM",
 		"day" : "Saturday",
-		"title": "SQL Sentry tech talk",
+		"title": "Esri workshop",
 		"room": "TBA"},
 		
 		{"starttime" : "2:30 PM", 
@@ -57,7 +57,7 @@
 	 {"starttime" : "3:30 PM", 
 		"endtime" : "4:20 PM",
 		"day" : "Saturday",
-		"title": "Esri workshop",
+		"title": "SQL Sentry tech talk",
 		"room": "TBA"},
 		
 		{"starttime" : "5:00 PM", 
