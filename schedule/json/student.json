@@ -76,7 +76,7 @@
 		"endtime" : "8:00 AM",
 		"day" : "Friday",
 		"title": "Sleeping rooms are available",
-    "room": "FB 009, PH 212, PH 220, PH 222"},
+    "room": "FB 009, PH 212, 220, 222"},
 	
 		{"starttime" : "10:00 PM", 
 		"endtime" : "10:50 PM",
@@ -184,7 +184,7 @@
 		"endtime" : "7:00 AM",
 		"day" : "Saturday",
 		"title": "Sleeping room available",
-		"room": "FB 009, PH 212, PH 220, PH 222"},
+		"room": "FB 009, PH 212, 220, 222"},
 		
 		{"starttime" : "6:30 AM", 
 		"endtime" : "9:00 AM",
