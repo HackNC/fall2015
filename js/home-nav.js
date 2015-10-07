@@ -27,9 +27,9 @@ var collapsedMenus = function() {
     if (!$(this).parent().hasClass('open')) {
       var collapsedSideMenuHeight;
       if ($('#nav .navbar-toggle').is(':visible')) {
-        collapsedSideMenuHeight = 114 + 323.5;
+        collapsedSideMenuHeight = 160 + 323.5;
       } else {
-        collapsedSideMenuHeight = 114;
+        collapsedSideMenuHeight = 160;
       }
       collapseOffset('#nav #about-menu > a', collapsedSideMenuHeight);
 		}
