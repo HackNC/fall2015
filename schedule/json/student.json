@@ -30,6 +30,12 @@
 		"title": "Putting Maps in Your Apps (Esri)",
     "room": "SN 011"},
 	
+	  {"starttime" :"6:30 PM",
+		"endtime" : "9:20 PM",
+		"day" : "Friday",
+		"title" : "Most popular talks livestreamed",
+		"room" : "FB 007"},
+	
 		{"starttime" : "7:30 PM", 
 		"endtime" : "8:20 PM",
 		"day" : "Friday",
@@ -57,7 +63,7 @@
 		{"starttime" : "8:30 PM", 
 		"endtime" : "9:20 PM",
 		"day" : "Friday",
-		"title": "TBA",
+		"title": "History and Applications of VR",
     "room": "SN 014"},
 	
 		{"starttime" : "8:30 PM", 
