@@ -100,13 +100,13 @@
 		"endtime" : "8:45 AM",
 		"day" : "Saturday",
 		"title": "Breakfast is served",
-    "room": "CHAP Lawn"},
+    "room": "SN Lobby"},
 	
 	  {"starttime" : "7:00 AM", 
 		"endtime" : " 8:45 AM",
 		"day" : "Saturday",
 		"title": "Check-in",
-    "room": "CHAP Lawn"},
+    "room": "FB Lobby"},
 	
 		{"starttime" : "8:45 AM", 
 		"endtime" : " 2:50 PM",
@@ -148,7 +148,7 @@
 		"endtime" : "1:00 PM",
 		"day" : "Saturday",
 		"title": "Noodles and Company brought to you in part by Esri",
-		"room": "CHAP Lawn"},
+		"room": "FB Lobby"},
 		
 		{"starttime" : "12:30 PM", 
 		"endtime" : "1:20 PM",
@@ -171,14 +171,14 @@
 	 {"starttime" : "3:30 PM",
 	 "endtime" : "4:20 PM",
 	 "day" : "Saturday",
-	 "title" : "TBA",
+	 "title" : "SQL Sentry TBA",
 	 "room" : "CHAP 125"},
 	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
 		"day" : "Saturday",
 		"title": "Stubbs and Son Barbecue and Mediterranean Deli brought to you in part by SQL Sentry",
-		"room": "CHAP Lawn"},
+		"room": "FB Lobby"},
 		
 		{"starttime" : "7:00 PM", 
 		"endtime" : "11:00 PM",
