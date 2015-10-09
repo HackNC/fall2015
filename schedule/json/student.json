@@ -120,8 +120,8 @@
 		"title": "Keynote",
 		"room": "CAR 111"},
 		
-		{"starttime" : "11:00 AM", 
-		"endtime" : "11:30 AM",
+		{"starttime" : "10:00 AM", 
+		"endtime" : "",
 		"day" : "Saturday",
 		"title": "Hacking begins!",
 		"room": "PH, SN, CAR"},
