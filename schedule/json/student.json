@@ -130,7 +130,7 @@
 		"endtime" : "10:50 AM",
 		"day" : "Saturday",
 		"title": "Think, Type: Magic Happens. Making the world a bit better with CS.",
-		"room": "CHAP 211"},
+		"room": "SN 014"},
 	
 	  {"starttime" : "10:00 AM", 
 		"endtime" : " 1:50 PM",
@@ -142,7 +142,7 @@
 		"endtime" : "11:50 AM",
 		"day" : "Saturday",
 		"title": "How NOT to Drop Out of College to Pursue a Startup",
-		"room": "CHAP 211"},
+		"room": "SN 014"},
 	
 		{"starttime" : "11:45 AM", 
 		"endtime" : "1:00 PM",
@@ -154,25 +154,25 @@
 		"endtime" : "1:20 PM",
 		"day" : "Saturday",
 		"title": "Advanced Web Development",
-		"room": "CHAP 211"},
+		"room": "SN 014"},
 	
 		{"starttime" : "1:30 PM", 
 		"endtime" : "2:20 PM",
 		"day" : "Saturday",
 		"title": "Esri Workshop",
-		"room": "CHAP 211"},
+		"room": "SN 014"},
 
 		{"starttime" : "2:30 PM", 
 		"endtime" : "3:20 PM",
 		"day" : "Saturday",
 		"title": "Capital One: Continuous Learning--\"How to avoid becoming a Dinosaur\"",
-		"room": "CHAP 211"},
+		"room": "SN 014"},
 	
 	 {"starttime" : "3:30 PM",
 	 "endtime" : "4:20 PM",
 	 "day" : "Saturday",
 	 "title" : "SQL Sentry TBA",
-	 "room" : "CHAP 211"},
+	 "room" : "SN 014"},
 	
 		{"starttime" : "5:30 PM", 
 		"endtime" : "6:50 PM",
