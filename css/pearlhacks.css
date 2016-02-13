@@ -27,12 +27,12 @@ body .jumbotron {
 }
 
 .navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
-  background-color: #463E47;
+  background-color: #cc506e;
   color: white;
 }
 
 .panel.hacknc-panel > .panel-heading {
-  background-color: rgb(110, 134, 140);
+  background-color: #1a4887;
   color: white;
 }
 
