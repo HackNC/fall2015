@@ -31,8 +31,9 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
   right:0;
   bottom:0;
   width:100%;
-  height:100%;
+  height:70%;
   display:block;
+  z-index: 2;
 }
 
 .stars {

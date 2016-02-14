@@ -1,24 +1,15 @@
 /* Typography */
 p {
-	font-size: 16px;
+  font-size: 22px;
 }
 
-nav, p, h1, h2, h3, h4, h5, li, span, div {
-  font-family: ArcherBook;
-}
+li, .navbar-brand{
+   font-family: 'LMP';
+   font-size: 28px;
+ }
 
-@font-face {
-  font-family: ArcherBook;
-  font-style: normal;
-  font-weight: normal;
-  src: url(../fonts/archer/Archer-Book-Pro.woff);
-}
-
-@font-face {
-  font-family: Riesling;
-  font-style: normal;
-  font-weight: normal;
-  src: url(../fonts/riesling/riesling.ttf);
+nav, p, h1, h2, h3, h4, h5, span, div {
+  font-family: 'Fira Sans';
 }
 
 /* Images and color */
@@ -27,15 +18,26 @@ body .jumbotron {
 }
 
 .navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
-  background-color: #cc506e;
+  background: #02030A;
   color: white;
 }
 
 .panel.hacknc-panel > .panel-heading {
-  background-color: #1a4887;
+  background-color: rgb(110, 134, 140);
   color: white;
 }
 
+
+.navbar .navbar-collapse ul li a:hover, .navbar .navbar-collapse ul li a:active {
+  text-decoration: none;
+  text-shadow: 3px 3px 12px #F2BB60;
+  font-size:105%;
+  font-weight:600;
+  color: inherit;
+    /*border-bottom: 2px solid;
+    border-color: inherit;
+  color: inherit;*/
+}
 .row {
   padding-left: 8px;
   padding-right: 8px;
