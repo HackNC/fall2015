@@ -73,10 +73,10 @@ header.full-height > .jumbotron {
 #pearlHacks h2{
   letter-spacing: 5px;
   font-size: 4em;
-  position: absolute;;
+  position: absolute;
   z-index: 4;
   font-family: 'LMP';
-  top: 11.5%;
+  top: 8%;
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -92,6 +92,30 @@ header.full-height > .jumbotron {
   text-shadow: 3px 3px 12px #F2BB60;
   color: inherit;
   font-weight: bold;
+}
+
+#pearlHacks.date h3{
+  letter-spacing: 4px;
+  font-size: 2em;
+  position: absolute;
+  z-index: 4;
+  font-family: 'LMP';
+  top: 16%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#pearlHacks.location h3{
+  letter-spacing: 4px;
+  font-size: 2em;
+  position: absolute;
+  z-index: 4;
+  font-family: 'LMP';
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
 }
 
 #ariel img{
@@ -125,11 +149,14 @@ header.full-height > .jumbotron {
   }
 
 #invitation {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 1rem;
-  font-family: 'Fira Sans';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Fira Sans';
+    border-style: solid;
+    border-color: #CE4E6D;
+    border-width: 10px;
 }
 
 div#content.container
