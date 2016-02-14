@@ -9,7 +9,8 @@ li, .navbar-brand{
  }
 
 nav, p, h1, h2, h3, h4, h5, span, div {
-  font-family: 'Fira Sans';
+  font-family: 'LMP';
+  letter-spacing: .1em;
 }
 
 /* Images and color */

@@ -23,21 +23,21 @@
 
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'LMP', sans-serif;
   font-size: 16px;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'LMP', sans-serif;
   letter-spacing: 2px;
 }
 
 strong {
-  font-size:2.8em;
-  font-family: 'Fira Sans', sans-serif;
-  color:#ce4e6d;
-  letter-spacing: 2px;
-  line-height:1.4em;
+    font-size: 2em;
+    font-family: 'LMP', sans-serif;
+    color: #ce4e6d;
+    letter-spacing: 2px;
+    line-height: 1em;
 }
 
 
@@ -153,7 +153,7 @@ header.full-height > .jumbotron {
     padding-bottom: 10px;
     text-align: center;
     font-size: 1rem;
-    font-family: 'Fira Sans';
+    font-family: 'LMP';
     border-style: solid;
     border-color: #CE4E6D;
     border-width: 10px;
@@ -175,7 +175,7 @@ div#content.container
 
 #invitation .btn
 {
-  background-color: #CC2557;
+  background-color: #CE4E6D;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
