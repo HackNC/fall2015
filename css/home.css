@@ -95,8 +95,7 @@ header.full-height > .jumbotron {
 }
 
 #ariel img{
-  max-width: 400px;
-  max-height: 420px;
+  max-width: 28%;
   height:auto;
   width: 80%;
   position: absolute;
