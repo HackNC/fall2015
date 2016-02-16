@@ -68,35 +68,22 @@ header.full-height > .jumbotron {
 
 #pearlHacks{
   color: white;
-}
-
-#pearlHacks h2{
-  letter-spacing: 4px;
-  font-size: 4em;
-  position: absolute;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  position: absolute;;
   z-index: 4;
   font-family: 'LMP';
-  top: 12%;
+  top: 20%;
   width: 100%;
   text-align: center;
   cursor: pointer;
- }
- 
- #pearlHacks h3{
-   letter-spacing: 2px;
-   font-size: 1.4em;
-   position: absolute;;
-   z-index: 4;
-   font-family: 'LMP';
-   top: 22%;
-   width: 100%;
-   text-align: center;
-   cursor: pointer;
 }
 
 #pearlHacks a{
   text-decoration: none;
   color: inherit;
+  font-size: 1.9em;
+  line-height: 0;
 }
 
 #pearlHacks a:hover{
@@ -106,37 +93,14 @@ header.full-height > .jumbotron {
   font-weight: bold;
 }
 
-#pearlHacks.date h3{
-  letter-spacing: 4px;
-  font-size: 2em;
-  position: absolute;
-  z-index: 4;
-  font-family: 'LMP';
-  top: 16%;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-}
-
-#pearlHacks.location h3{
-  letter-spacing: 4px;
-  font-size: 2em;
-  position: absolute;
-  z-index: 4;
-  font-family: 'LMP';
-  top: 20%;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-}
-
 #ariel img{
-  max-width: 330px;
-  max-height: 350px;
-  height:auto;
-  width: 80%;
+  /*max-width: 330px;
+  max-height: 350px;*/
+  height: auto;
+  max-width: 80%;
+  width: 25%;
   position: absolute;
-  top: 26%; bottom:0; left: 0; right:0;
+  top: 27%; bottom:0; left: 0; right:0;
   margin: auto;
   z-index: 5;
   -webkit-animation: pulsate 2s ease-out;
@@ -144,9 +108,9 @@ header.full-height > .jumbotron {
 }
 
 @-webkit-keyframes pulsate {
-    0% {-webkit-filter: drop-shadow(0px 0px 20px #fff6e9)}
-    50% {-webkit-filter: drop-shadow(0px 0px 15px #FFEFDA)}
-    100% {-webkit-filter: drop-shadow(0px 0px 20px white)}
+    0% {-webkit-filter: drop-shadow(0px 0px 12px #fff6e9)}
+    50% {-webkit-filter: drop-shadow(0px 0px 7px #FFEFDA)}
+    100% {-webkit-filter: drop-shadow(0px 0px 12px white)}
 }
 
 /*#ariel:hover8
@@ -219,7 +183,7 @@ div#content.container
 }
 
 
-.participant img  
+.participant img
 {
   filter: contrast(1);
   -webkit-filter: contrast(1);
@@ -237,8 +201,8 @@ div#content.container
   -ms-filter: contrast(0.3);
 }
 
-#partipant-text      
-{  
+#partipant-text
+{
   font-family:Helvetica;
   font-weight:900;
   color:rgba(255,255,255,.85);
