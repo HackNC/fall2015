@@ -1,6 +1,6 @@
 /* Typography */
 p {
-  font-size: 22px;
+  font-size: 25px;
 }
 
 li, .navbar-brand{
@@ -28,6 +28,18 @@ body .jumbotron {
   color: white;
 }
 
+.panel-heading{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.panel{
+  border-radius: 10px;
+}
+
+.panel-body{
+  height: auto;
+}
 
 .navbar .navbar-collapse ul li a:hover, .navbar .navbar-collapse ul li a:active {
   text-decoration: none;
@@ -61,3 +73,15 @@ body .jumbotron {
 .hacknc-footer span {
   font-size: 1.5rem;
 }
+
+.panel{
+  background: #FBEFF2;
+  height: auto;
+  overflow: auto;
+}
+
+
+/*panel-body #sponsors img{
+  max-width:100%;
+max-height:100%;
+}*/

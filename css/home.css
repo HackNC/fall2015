@@ -24,7 +24,8 @@
 
 body {
   font-family: 'LMP', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  background: radial-gradient(#FBEFF2,white);
 }
 
 h1, h2, h3, h4 {
@@ -129,11 +130,12 @@ header.full-height > .jumbotron {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    font-size: 1rem;
+    width: 100%;
+    font-size: 1.7em;
     font-family: 'LMP';
-    border-style: solid;
-    border-color: #CE4E6D;
-    border-width: 10px;
+    border: solid #CE4E6D 7px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #C75773;
 }
 
 div#content.container
@@ -153,6 +155,7 @@ div#content.container
 #invitation .btn
 {
   background-color: #CE4E6D;
+  letter-spacing: 3px;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
@@ -231,12 +234,15 @@ div#content.container
   z-index: 666;
 }
 
-#welcome p {
+
+ p {
   font-size: 1.1em;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .panel-body{
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 @media (max-width : 1920px) {
