@@ -5,80 +5,91 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="HackNC - Travel information" />
-	<meta property="og:site_name" content="HackNC 2015" />
-  <meta property="og:url" content="http://hacknc.com/about/travel" />
-	<meta property="og:description" content="HackNC travel grant information." />
-	<meta property="og:image" content="http://hacknc.com/images/facebookPreview.png" />
+  <meta property="og:title" content="Pearl Hacks - Travel information" />
+	<meta property="og:site_name" content="Pearl Hacks 2016" />
+  <meta property="og:url" content="http://pearlhacks.com/about/travel" />
+	<meta property="og:description" content="Pearl Hacks travel grant information." />
 	<meta property="og:updated_time" content="1439328118" />
 	<link rel="icon" href="../../ariel.png" type="image/x-icon" />
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
-	<link type="text/css" rel="stylesheet" href="../../css/material-fullpalette.min.css" />
-	<link type="text/css" rel="stylesheet" href="../../css/pearlhacks.css" />
 	<title>Travel grants for Pearl Hacks</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="icon" href="../../images/ariel.png" type="image/png">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+	<!--Import bootstrap.css-->
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="../../css/material-fullpalette.min.css" />
+	<!--Import Pearl Hacks overrides-->
+	<link type="text/css" rel="stylesheet" href="../../css/pearlhacks.css" />
+	<link type="text/css" rel="stylesheet" href="../../css/home.css" />
 </head>
 
 <body>
-	<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="../../index.html">Pearl Hacks</a>
-			</div>
-			<div class="collapse navbar-collapse" id="navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="dropdown active">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		<nav class="navbar navbar-default hacknc-navbar navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="../../index.html">Pearl Hacks <span class="sr-only">(current)</span></a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li id="about-menu" class="dropdown">
+            			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 							About <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="../../about/index.html">Us</a></li>
-							<li><a href="../../about/travel/index.html">Travel</a> <span class="sr-only">(current)</span></li>
-							<li><a href="../../rules/index.html">Rules</a></li>
-							<li><a href="../../prizes/index.html">Prizes</a></li>
-							<li><a href="../../app/index.html">App</a></li>
+							<!-- <li><a href="about">Us</a></li> -->
+							<li><a href="#">Travel</a></li>
+							<li><a href="../rules/index.html">Guidelines</a></li>
+							<!-- <li><a href="about/prizes">Prizes</a></li>
+							<li><a href="about/app">App</a></li> -->
 						</ul>
-					</li>
-					<li>
-						<a href="../../apply/index.html">Register</a>
-					</li>
-					<li>
-						<a href="../../support/index.html">Support</a>
-					</li>
-					<li>
-						<a href="../../learn/index.html">Learn</a>
-					</li>
-					<li>
-						<a href="../../schedule/index.html">Schedule</a>
-					</li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="mailto:hello@pearlhacks.com">Contact us</a>
-							</li>
-							<li>
-								<a data-toggle="modal" data-target="#cheat-codes">Cheat codes</a>
-							</li>
-							<li role="separator" class="divider">
-							</li>
-							<li>
-								<a href="http://mlh.io">Major League Hacking</a>
-							</li>
+						</li>
+						<li id="about-menu" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Register<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+							<li><a href="./apply/participant.html" target="_blank">Participant</a></li>
+							<li><a href="./apply/volunteer.html" target="_blank">Volunteer</a></li>
+							<li><a href="./apply/mentor.html" target="_blank">Mentor</a></li>
 						</ul>
-					</li>
-				</ul>
+						</li>
+						<!-- <li>
+							<a href="./support/index.html">Support</a>
+						</li> -->
+						<li>
+							<a href="./learn/index.html">Learn</a>
+						</li>
+						<li>
+							<a href="./schedule/index.html">Schedule</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li id="side-menu" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More... <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="mailto:hello@pearlhacks.com">Contact us</a>
+								</li>
+								<!-- <li>
+									<a data-toggle="modal" data-target="#cheat-codes">Cheat codes</a>
+								</li> -->
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="http://mlh.io">Major League Hacking</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
 	<script type="text/javascript" src="../../js/navbar-offset.js"></script>
 	<div class="jumbotron">
 		<div class="container">
@@ -214,7 +225,7 @@
 				</div>
 				<div class="modal-body">
 					<p>
-						Travel grants are not intended to give you a free vacation to Chapel Hill. They are here so coming to HackNC doesn't cost you any more than your average weekend at home.
+						Travel grants are not intended to give you a free vacation to Chapel Hill. They are here so coming to Pearl Hacks doesn't cost you any more than your average weekend at home but hopefully a lot more fun.
 					</p>
 				</div>
 				<div class="modal-footer">
