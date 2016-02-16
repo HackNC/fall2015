@@ -73,7 +73,7 @@ header.full-height > .jumbotron {
   position: absolute;;
   z-index: 4;
   font-family: 'LMP';
-  top: 20%;
+  top: 18%;
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -98,9 +98,9 @@ header.full-height > .jumbotron {
   max-height: 350px;*/
   height: auto;
   max-width: 80%;
-  width: 25%;
+  width: 23%;
   position: absolute;
-  top: 27%; bottom:0; left: 0; right:0;
+  top: 25%; bottom:0; left: 0; right:0;
   margin: auto;
   z-index: 5;
   -webkit-animation: pulsate 2s ease-out;
@@ -213,7 +213,7 @@ div#content.container
   position: absolute;
   top: 0;
   right: 25px;
-  max-width: 80px;
+  max-width: 70px;
   width: 10%;
   min-width: 60px;
   z-index: 10;
