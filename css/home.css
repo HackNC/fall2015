@@ -1,4 +1,4 @@
-/*import url('http://fonts.googleapis.com/css?family=Fira+Sans:300');*/
+/*import url('http://fonts.googleapis.com/css?family=Fira+Sans:300');*
 
 
 /* Little Miss Priss font import */
@@ -71,15 +71,27 @@ header.full-height > .jumbotron {
 }
 
 #pearlHacks h2{
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-size: 4em;
   position: absolute;
   z-index: 4;
   font-family: 'LMP';
-  top: 8%;
+  top: 12%;
   width: 100%;
   text-align: center;
   cursor: pointer;
+ }
+ 
+ #pearlHacks h3{
+   letter-spacing: 2px;
+   font-size: 1.4em;
+   position: absolute;;
+   z-index: 4;
+   font-family: 'LMP';
+   top: 22%;
+   width: 100%;
+   text-align: center;
+   cursor: pointer;
 }
 
 #pearlHacks a{
@@ -119,11 +131,12 @@ header.full-height > .jumbotron {
 }
 
 #ariel img{
-  max-width: 28%;
+  max-width: 330px;
+  max-height: 350px;
   height:auto;
   width: 80%;
   position: absolute;
-  top: 12%; bottom:0; left: 0; right:0;
+  top: 26%; bottom:0; left: 0; right:0;
   margin: auto;
   z-index: 5;
   -webkit-animation: pulsate 2s ease-out;
