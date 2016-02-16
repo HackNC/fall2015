@@ -218,6 +218,33 @@ div#content.container
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+
+.participant img  
+{
+  filter: contrast(1);
+  -webkit-filter: contrast(1);
+  -moz-filter: contrast(1);
+  -o-filter: contrast(1);
+  -ms-filter: contrast(1);
+}
+
+.participant img:hover
+{
+  filter: contrast(0.3);
+  -webkit-filter: opacity(30%);
+  -moz-filter: contrast(0.3);
+  -o-filter: contrast(0.3);
+  -ms-filter: contrast(0.3);
+}
+
+#partipant-text      
+{  
+  font-family:Helvetica;
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size:40px;
+}
+
 #mlh-trust-badge {
   position: absolute;
   top: 0;
