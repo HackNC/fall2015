@@ -1,8 +1,6 @@
 /*@fontimport url('http://fonts.googleapis.com/css?family=Fira+Sans:300');*/
 @import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
 
-
-
 /* Little Miss Priss font import */
 @font-face {
     font-family: 'LMP';
@@ -22,7 +20,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 
 body {
   font-family: 'LMP', sans-serif;
@@ -246,7 +243,7 @@ div#content.container
 }
 
 #welcome p{
-  font-size: 16px;
+  font-size: 0.9em;
 }
 
  p {
