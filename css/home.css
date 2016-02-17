@@ -1,4 +1,6 @@
-/*import url('http://fonts.googleapis.com/css?family=Fira+Sans:300');*
+/*@fontimport url('http://fonts.googleapis.com/css?family=Fira+Sans:300');*/
+@import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
+
 
 
 /* Little Miss Priss font import */
@@ -40,7 +42,6 @@ strong {
     letter-spacing: 2px;
     line-height: 1em;
 }
-
 
 header {
   height: auto;
@@ -134,7 +135,7 @@ header.full-height > .jumbotron {
     font-family: 'LMP';
     border: solid #CE4E6D 7px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px #C75773;
+    box-shadow: 2px 2px 3px #C75773;
 }
 
 div#content.container
@@ -151,10 +152,8 @@ div#content.container
   font-size: 2rem;
 }
 
-#invitation .btn
-{
+#invitation .btn{
   background-color: #CE4E6D;
-  letter-spacing: 3px;
 }
 
 #invitation .col-xs-8, #invitation .col-xs-offset-2 {
@@ -243,9 +242,12 @@ div#content.container
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 666;
+  z-index: 667;
 }
 
+#welcome p{
+  font-size: 16px;
+}
 
  p {
   font-size: 1.1em;
@@ -254,7 +256,7 @@ div#content.container
 }
 
 .panel-body{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width : 1920px) {
