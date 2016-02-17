@@ -185,7 +185,19 @@ div#content.container
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 15rem;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
 .participant img
 {
   filter: contrast(1);
@@ -195,13 +207,14 @@ div#content.container
   -ms-filter: contrast(1);
 }
 
-.participant img:hover
+.participant img:hover 
 {
   filter: contrast(0.3);
   -webkit-filter: opacity(30%);
   -moz-filter: contrast(0.3);
   -o-filter: contrast(0.3);
   -ms-filter: contrast(0.3);
+  opacity: 1;
 }
 
 #partipant-text
@@ -314,3 +327,7 @@ div#content.container
     max-height: 800px;
   }
 }
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+
