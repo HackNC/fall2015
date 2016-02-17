@@ -78,7 +78,7 @@ body .jumbotron {
 }
 
 .panel{
-  background: #FBEFF2;
+  background: linear-gradient(#FFFFFF,#FBEFF2,#F7DEE4,#F3CED6);
   height: auto;
   overflow: auto;
 }
