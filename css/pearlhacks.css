@@ -11,6 +11,7 @@ li, .navbar-brand{
    font-size: 28px;
  }
 
+/*WARNING: HTMLPREVIEW WILL NOT SHOW THE DIDACT GOTHIC FONT AND THE LMP FONT WILL LOOK TINY BUT DON"T WORRY ABOUT IT*/
 nav, p, h1, h2, h3, h4, h5, span, div {
   font-family: 'Didact Gothic', 'LMP', sans-serif;
   letter-spacing: .1em;
