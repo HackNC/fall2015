@@ -130,11 +130,10 @@ header.full-height > .jumbotron {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    width: 100%;
     font-size: 1.7em;
     font-family: 'LMP';
     border: solid #CE4E6D 7px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px #C75773;
 }
 
@@ -207,7 +206,7 @@ div#content.container
   -ms-filter: contrast(1);
 }
 
-.participant img:hover 
+.participant img:hover
 {
   filter: contrast(0.3);
   -webkit-filter: opacity(30%);
@@ -329,5 +328,3 @@ div#content.container
 }
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
-
-
