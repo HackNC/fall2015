@@ -1,4 +1,4 @@
-# fall2015
-HackNC website for Fall 2015
+# spring2016
+Pearl Hacks website for Spring 2016
 
-[Check it out](http://www.hacknc.github.com/fall2015)
+[Check it out](https://github.com/madipfaff/PearlHacks16.git)

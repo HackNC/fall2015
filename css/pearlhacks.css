@@ -1,0 +1,91 @@
+@import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
+
+
+/* Typography */
+p {
+  font-size: 25px;
+}
+
+li, .navbar-brand{
+   font-family: 'LMP';
+   font-size: 28px;
+ }
+
+/*WARNING: HTMLPREVIEW WILL NOT SHOW THE DIDACT GOTHIC FONT AND THE LMP FONT WILL LOOK TINY BUT DON"T WORRY ABOUT IT*/
+nav, p, h1, h2, h3, h4, h5, span, div {
+  font-family: 'Didact Gothic', 'LMP', sans-serif;
+  letter-spacing: .1em;
+}
+
+/* Images and color */
+body .jumbotron {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar.hacknc-navbar, .panel.hacknc-navbar > .panel-heading {
+  background: #02030A;
+  color: white;
+}
+
+.panel.hacknc-panel > .panel-heading {
+  background-color: #ce4e6d;
+  color: white;
+}
+
+.panel-heading{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.panel{
+  border-radius: 10px;
+}
+
+.panel-body{
+  height: auto;
+}
+
+.navbar .navbar-collapse ul li a:hover, .navbar .navbar-collapse ul li a:active {
+  text-decoration: none;
+  text-shadow: 3px 3px 12px #F2BB60;
+  font-size:105%;
+  font-weight:600;
+  color: inherit;
+    /*border-bottom: 2px solid;
+    border-color: inherit;
+  color: inherit;*/
+}
+.row {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.row:first-child {
+  padding-top: 8px;
+}
+
+.row:last-child {
+  padding-bottom: 8px;
+}
+
+/* Layout */
+
+.hacknc-footer {
+  padding-right: 5%;
+}
+
+.hacknc-footer span {
+  font-size: 1.5rem;
+}
+
+.panel{
+  background: linear-gradient(#FFFFFF,#FBEFF2,#F7DEE4,#F3CED6);
+  height: auto;
+  overflow: auto;
+}
+
+
+/*panel-body #sponsors img{
+  max-width:100%;
+max-height:100%;
+}*/
